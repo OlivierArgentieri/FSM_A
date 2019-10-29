@@ -56,8 +56,12 @@ sysinfo.txt
 
 # Builds
 *.apk
-*.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
 
+FSM_A/Library/*
+*.info
+FSM_A/Temp/*
+FSM_A/Library/metadata/**
+FSM_A/Library/ShaderCache/**
