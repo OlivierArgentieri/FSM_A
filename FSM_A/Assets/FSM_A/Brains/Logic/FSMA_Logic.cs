@@ -44,20 +44,20 @@ public sealed class FSMA_Logic : StateMachineBehaviour
         currentAgent = _animator.GetComponent<IAgent>();
         if (currentAgent != null)
             return _animator.GetBehaviours<FSMA_State>(); 
-        else
-            return null;
+        
+        return null;
     }
 
     void GetSightData(Animator _animator)
     {
         if (!IsValid) return;
-        _animator.SetBool(paramSight, Sight.FindPlayer);
+        _animator.SetBool(paramSight, Sight.TargetDetected);
     }
 
     void GetMovementData(Animator _animator)
     {
         if (!IsValid) return;
-        if (Sight.FindPlayer)
+        if (Sight.TargetDetected)
         {
             Movement.SetTarget(Sight.Target);
             _animator.SetBool(paramMovement, !Movement.IsAtPos);
