@@ -35,8 +35,8 @@ public sealed class FSMA_Logic : StateMachineBehaviour
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
        FSMA_State[] _allStates = GetStates(animator);
-        for (int i = 0; i < _allStates.Length; i++)
-                _allStates[i].ResetState();
+       // for (int i = 0; i < _allStates.Length; i++)
+               // _allStates[i].ResetState();
     }
 
     FSMA_State[] GetStates(Animator _animator)
