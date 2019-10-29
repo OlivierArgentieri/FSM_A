@@ -8,7 +8,7 @@ public class FSM_A_PlayerComponent : MonoBehaviour
     [SerializeField, Header("ID")] private int id = 0;
     
     public int ID => id;
-    public bool IsValid => id <= 0;
+    public bool IsValid => id >= 0;
 
     #endregion
 

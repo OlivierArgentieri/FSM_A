@@ -9,7 +9,7 @@ public class TemplateManager<T> : MonoBehaviour where T : MonoBehaviour
     [SerializeField, Header("Keep it though levels ?")]
     private bool keep = false;
     
-    private static T instance = null;
+    private static T instance = default(T);
     public static T Instance => instance;
     #endregion
     
@@ -26,7 +26,7 @@ public class TemplateManager<T> : MonoBehaviour where T : MonoBehaviour
 
     private void InitSingleton()
     {
-        if (instance != null || instance != this)
+        if (instance != null && instance != this)
         {
             Destroy(this);
             return;

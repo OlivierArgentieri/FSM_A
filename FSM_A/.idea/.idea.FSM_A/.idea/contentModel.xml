@@ -8,8 +8,10 @@
       <e p="Assets" t="Include">
         <e p="FSM_A" t="Include">
           <e p="Player" t="Include">
-            <e p="FSM_A_PlayerComponent.cs" t="Include" />
             <e p="FSM_A_PlayerManager.cs" t="Include" />
+            <e p="PlayerComponent" t="Include">
+              <e p="FSM_A_PlayerComponent.cs" t="Include" />
+            </e>
           </e>
           <e p="TemplateManager" t="Include">
             <e p="TemplateManager.cs" t="Include" />
