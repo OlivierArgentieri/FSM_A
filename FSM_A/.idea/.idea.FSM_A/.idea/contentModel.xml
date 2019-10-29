@@ -7,6 +7,28 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="FSM_A" t="Include">
+          <e p="Brains" t="Include">
+            <e p="Agent" t="Include">
+              <e p="Agents" t="Include">
+                <e p="FSMA_AgentMovement.cs" t="Include" />
+                <e p="FSMA_AgentSight.cs" t="Include" />
+              </e>
+              <e p="IAgent.cs" t="Include" />
+            </e>
+            <e p="Logic" t="Include">
+              <e p="FSMA_Logic.cs" t="Include" />
+            </e>
+            <e p="State" t="Include">
+              <e p="FSMA_State.cs" t="Include" />
+              <e p="States" t="Include">
+                <e p="FSMA_FindingPlayer.cs" t="Include" />
+                <e p="FSMA_MoveTo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Enemy" t="Include">
+            <e p="FSMA_Ennemy.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="FSM_A_PlayerManager.cs" t="Include" />
             <e p="PlayerComponent" t="Include">

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -8,6 +9,7 @@ public class FSM_A_PlayerManager : TemplateManager<FSM_A_PlayerManager>
     #region f/p
 
     Dictionary<int, FSM_A_PlayerComponent> players = new Dictionary<int, FSM_A_PlayerComponent>();
+    public FSM_A_PlayerComponent PlayerOne => players[0];
 
     #endregion
     
@@ -27,9 +29,11 @@ public class FSM_A_PlayerManager : TemplateManager<FSM_A_PlayerManager>
     {
         if (_player == null || !_player.IsValid) return;
         
-        bool _canAdd = _add ? ContainsPlayer(_player) : !ContainsPlayer(_player);
+        bool _canHandle = _add ? !ContainsPlayer(_player) : ContainsPlayer(_player);
+
+        if (!_canHandle) throw new Exception("Invalid Player component"); 
         
-        if(_canAdd)
+        if(_add)
             players.Add(_player.ID, _player);
         else
             players.Remove(_player.ID);
