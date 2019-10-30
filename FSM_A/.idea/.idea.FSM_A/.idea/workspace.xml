@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/IAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/0c/9750c284/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/TemplateManager/TemplateManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D971063-3068-4ADD-86D0-80ECF65BFE69/5b/3e0f5e91/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,12 +61,6 @@
         <option value="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1Sum2Wsz3ImbZODSfgGakx0Aywk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,97 +148,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>117</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="117">
-            <startOffsets>
-              <option value="4320" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4338" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>113</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="113">
-            <startOffsets>
-              <option value="4084" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4129" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>114</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="114">
-            <startOffsets>
-              <option value="4138" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4187" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>116</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="116">
-            <startOffsets>
-              <option value="4221" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4311" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>115</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="115">
-            <startOffsets>
-              <option value="4196" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4212" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>119</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="119">
-            <startOffsets>
-              <option value="4392" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4434" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>121</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="121">
-            <startOffsets>
-              <option value="4444" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4490" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

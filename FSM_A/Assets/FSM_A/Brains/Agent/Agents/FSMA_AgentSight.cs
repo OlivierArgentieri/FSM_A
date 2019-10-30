@@ -121,6 +121,13 @@ public class FSMA_AgentSight : MonoBehaviour
 
         return _distanceToObstacle < _distantToTarget;
     }
+
+
+    bool HitOverlap()
+    {
+        Physics.OverlapSphere(transform.position, sightRange, targetLayer);
+        return false;
+    }
     #endregion
     
     
@@ -160,4 +167,31 @@ public class FSMA_AgentSight : MonoBehaviour
 
     #endregion
   
+}
+
+
+
+public struct MyRay
+{
+    private Ray ray;
+    private bool isObstacle;
+    private float distanceTarget;
+    private float distanceObstacle;
+    private float range;
+
+
+    public bool IsObstacle => isObstacle;
+    public MyRay(Ray _ray, bool _isObstacle, float _distanceTarget, float _distanceObstacle, float _range)
+    {
+        ray = _ray;
+        isObstacle = _isObstacle;
+        distanceTarget = _distanceTarget;
+        distanceObstacle = _distanceObstacle;
+        range = _range;
+    }
+
+    public void DrawRay()
+    {
+        
+    }
 }
