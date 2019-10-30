@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Logic/FSMA_Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Logic/FSMA_Logic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_FindingPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_FindingPlayer.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +46,11 @@
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/States/FSMA_Logic.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/States/AgentTest/FSMA_Ennemy.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Player/FSM_A_PlayerManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_MoveTo.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Enemy/FSMA_Ennemy.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_FindingPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Logic/FSMA_Logic.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_MoveTo.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_FindingPlayer.cs" />
       </list>
     </option>
   </component>
@@ -124,7 +124,7 @@
       <updated>1572354978217</updated>
       <workItem from="1572354981355" duration="657000" />
       <workItem from="1572356032695" duration="15996000" />
-      <workItem from="1572421671168" duration="1276000" />
+      <workItem from="1572421671168" duration="2868000" />
     </task>
     <servers />
   </component>
@@ -166,32 +166,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>47</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="47">
-            <startOffsets>
-              <option value="1609" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1642" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
-          <line>53</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="53">
-            <startOffsets>
-              <option value="1801" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1832" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

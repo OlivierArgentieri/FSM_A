@@ -51,6 +51,7 @@ public sealed class FSMA_Logic : StateMachineBehaviour
     void GetSightData(Animator _animator)
     {
         if (!IsValid) return;
+        Sight.OnUdpateSight?.Invoke();
         _animator.SetBool(paramSight, Sight.TargetDetected);
     }
 

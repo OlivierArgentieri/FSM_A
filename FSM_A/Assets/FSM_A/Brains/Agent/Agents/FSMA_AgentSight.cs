@@ -83,10 +83,14 @@ public class FSMA_AgentSight : MonoBehaviour
             
             float _distanceToObstacle = _hit.distance;
             if (_distanceToObstacle < _distanceToTarget)
+            {
+                target = null;
                 return false;
+            }
             return true;
         }
         Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
+        target = null;
         return false;
     }
     #endregion
