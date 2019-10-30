@@ -514,7 +514,7 @@ PrefabInstance:
     - target: {fileID: 197230978556794274, guid: c48f7cf334000814983d8074eff60af1,
         type: 3}
       propertyPath: sightType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 197230978556794274, guid: c48f7cf334000814983d8074eff60af1,
         type: 3}

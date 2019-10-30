@@ -12,9 +12,10 @@
               <e p="Agents" t="Include">
                 <e p="AgentSightBehaviours" t="Include">
                   <e p="FSM_A_AgentSightEcoPlusBehaviour.cs" t="Include" />
+                  <e p="FSM_A_AgentSightMultiRayBehaviour.cs" t="Include" />
                 </e>
                 <e p="AgentSightComponent" t="Include">
-                  <e p="FSM_A_AgentSightBehaviours.cs" t="Include" />
+                  <e p="FSM_A_AgentSightBehaviour.cs" t="Include" />
                   <e p="FSMA_AgentSight.cs" t="Include" />
                 </e>
                 <e p="FSMA_AgentMovement.cs" t="Include" />

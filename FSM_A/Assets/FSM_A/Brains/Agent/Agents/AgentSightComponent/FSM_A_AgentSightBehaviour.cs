@@ -1,14 +1,15 @@
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
-public class FSM_A_AgentSightBehaviours : MonoBehaviour
+public class FSM_A_AgentSightBehaviour : MonoBehaviour
 {
     #region f/p
     [SerializeField, Header("Angle Sight"), Range(1f, 360)] protected int sightAngle = 45;
     [SerializeField, Header("Range Sight"), Range(1, 100)]protected float sightRange = 5;
     [SerializeField, Header("Height Sight"), Range(0.1f, 10)]protected float sightHeight = 1;
+    [SerializeField, Header("Obstacle Layer")]protected Transform target = null;
     [SerializeField, Header("Target layer")]protected LayerMask targetLayer = 0;
     [SerializeField, Header("Obstacle Layer")]protected LayerMask obstacleLayer = 0;
-    [SerializeField, Header("Obstacle Layer")]protected Transform target = null;
 
     public Transform Target => target;
     #endregion
@@ -17,6 +18,12 @@ public class FSM_A_AgentSightBehaviours : MonoBehaviour
     
     
     #region custom method
+
+    public void Init(LayerMask _targetLayer, LayerMask _obstacleLayer)
+    {
+        targetLayer = _targetLayer;
+        obstacleLayer = _obstacleLayer;
+    }
     
     public virtual bool TargetDetected()
     {
@@ -37,4 +44,9 @@ public class FSM_A_AgentSightBehaviours : MonoBehaviour
         return _distanceToObstacle < _distantToTarget;
     }
     #endregion
+
+    protected virtual void OnDrawGizmos()
+    {
+        
+    }
 }

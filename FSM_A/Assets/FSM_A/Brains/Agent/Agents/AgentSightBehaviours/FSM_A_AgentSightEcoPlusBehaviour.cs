@@ -1,6 +1,7 @@
+using System;
 using UnityEngine;
 
-public class FSM_A_AgentSightEcoPlusBehaviour : FSM_A_AgentSightBehaviours
+public class FSM_A_AgentSightEcoPlusBehaviour : FSM_A_AgentSightBehaviour
 {
     public override bool TargetDetected()
     {
@@ -32,5 +33,17 @@ public class FSM_A_AgentSightEcoPlusBehaviour : FSM_A_AgentSightBehaviours
         target = null;
         return false;
     }
+    #endregion
+
+    #region Debug
+
+    protected override void OnDrawGizmos()
+    {
+        Ray _raySight = new Ray(transform.position + Vector3.up * sightHeight, transform.forward);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawRay(_raySight.origin, _raySight.direction * sightRange);
+        Gizmos.color = Color.white;
+    }
+
     #endregion
 }
