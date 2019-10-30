@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Threading.Tasks;
 
 public class FSMA_AgentSight : MonoBehaviour
 {
@@ -91,7 +92,8 @@ public class FSMA_AgentSight : MonoBehaviour
     {
         for (int i = -sightAngle/2; i <sightAngle/2; i++)
         {
-            Ray _toTargetRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
+            //Ray _toTargetRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
+            Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(0, i, Mathf.Sin(Time.time) *-10) * transform.forward);
             RaycastHit _hit;
 
             bool _hitTarget = Physics.Raycast(_toTargetRay, out _hit, sightRange , targetLayer);
