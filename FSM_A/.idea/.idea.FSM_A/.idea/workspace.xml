@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Util.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Util/Util.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Util/Util.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <marker date="1572349121030" expanded="false" signature="6:92" ph="..." />
                 <marker date="1572349121030" expanded="true" signature="141:1482" ph="{...}" />
@@ -43,29 +32,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="-5">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
               <folding>
-                <marker date="1572478076197" expanded="false" signature="6:122" ph="..." />
-                <marker date="1572478076197" expanded="true" signature="168:4039" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="175:1433" ph="f/p" />
-                <marker date="1572478076197" expanded="true" signature="416:499" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="1441:1680" ph="unity methods" />
-                <marker date="1572478076197" expanded="true" signature="1488:1654" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="1685:1885" ph="/* public bool FindPlayer =&gt; target?GetDistance(transform.position, target.position) &lt; range : false; ... */" />
-                <marker date="1572478076197" expanded="true" signature="1892:2853" ph="custom methods" />
-                <marker date="1572478076197" expanded="true" signature="1937:2685" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="2023:2679" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="2064:2637" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="2728:2838" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="2868:4037" ph="debug" />
-                <marker date="1572478076197" expanded="true" signature="2913:2949" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="2982:4021" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="3067:4015" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="3527:3918" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="4062:4588" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="4360:4538" ph="{...}" />
-                <marker date="1572478076197" expanded="true" signature="4565:4586" ph="{...}" />
+                <marker date="1572478386132" expanded="false" signature="6:122" ph="..." />
+                <marker date="1572478386132" expanded="true" signature="168:4029" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="175:1433" ph="f/p" />
+                <marker date="1572478386132" expanded="true" signature="416:499" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="1441:1680" ph="unity methods" />
+                <marker date="1572478386132" expanded="true" signature="1488:1654" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="1685:1885" ph="/* public bool FindPlayer =&gt; target?GetDistance(transform.position, target.position) &lt; range : false; ... */" />
+                <marker date="1572478386132" expanded="true" signature="1892:2838" ph="custom methods" />
+                <marker date="1572478386132" expanded="true" signature="1937:2685" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="2023:2679" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="2064:2637" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="2713:2823" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="2853:4027" ph="debug" />
+                <marker date="1572478386132" expanded="true" signature="2898:2934" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="2967:4011" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="3054:4005" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="3514:3908" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="4052:4578" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="4350:4528" ph="{...}" />
+                <marker date="1572478386132" expanded="true" signature="4555:4576" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Util/Util.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding>
                 <marker date="1572469683834" expanded="true" signature="37:623" ph="{...}" />
                 <marker date="1572469683834" expanded="true" signature="194:621" ph="{...}" />
@@ -87,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="144">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <marker date="1572470293708" expanded="true" signature="7:73" ph="..." />
                 <marker date="1572470293708" expanded="true" signature="116:1218" ph="{...}" />
@@ -103,13 +92,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <marker date="1572478033518" expanded="true" signature="61:1208" ph="{...}" />
-                <marker date="1572478033518" expanded="true" signature="249:1206" ph="{...}" />
-                <marker date="1572478033518" expanded="true" signature="315:1150" ph="{...}" />
-                <marker date="1572478033518" expanded="true" signature="1039:1140" ph="{...}" />
+                <marker date="1572478380120" expanded="true" signature="61:1209" ph="{...}" />
+                <marker date="1572478380120" expanded="true" signature="249:1207" ph="{...}" />
+                <marker date="1572478380120" expanded="true" signature="315:1151" ph="{...}" />
+                <marker date="1572478380120" expanded="true" signature="1040:1141" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -376,12 +365,12 @@
       <workItem from="1572354981355" duration="657000" />
       <workItem from="1572356032695" duration="15996000" />
       <workItem from="1572421671168" duration="9531000" />
-      <workItem from="1572456492913" duration="5144000" />
+      <workItem from="1572456492913" duration="5449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5145000" />
+    <option name="totallyTimeSpent" value="5450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +382,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25519446" />
@@ -564,7 +553,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Util/Util.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding>
             <marker date="1572469683834" expanded="true" signature="37:623" ph="{...}" />
             <marker date="1572469683834" expanded="true" signature="194:621" ph="{...}" />
@@ -575,27 +564,13 @@
     <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <marker date="1572349121030" expanded="false" signature="6:92" ph="..." />
             <marker date="1572349121030" expanded="true" signature="141:1482" ph="{...}" />
             <marker date="1572349121030" expanded="true" signature="572:656" ph="{...}" />
             <marker date="1572349121030" expanded="true" signature="924:1106" ph="{...}" />
             <marker date="1572349121030" expanded="true" signature="1134:1423" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <marker date="1572470293708" expanded="true" signature="7:73" ph="..." />
-            <marker date="1572470293708" expanded="true" signature="116:1218" ph="{...}" />
-            <marker date="1572470293708" expanded="true" signature="290:1215" ph="{...}" />
-            <marker date="1572470293708" expanded="true" signature="541:1017" ph="{...}" />
-            <marker date="1572470293708" expanded="true" signature="860:959" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -611,44 +586,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1572470293708" expanded="true" signature="7:73" ph="..." />
+            <marker date="1572470293708" expanded="true" signature="116:1218" ph="{...}" />
+            <marker date="1572470293708" expanded="true" signature="290:1215" ph="{...}" />
+            <marker date="1572470293708" expanded="true" signature="541:1017" ph="{...}" />
+            <marker date="1572470293708" expanded="true" signature="860:959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <marker date="1572478033518" expanded="true" signature="61:1208" ph="{...}" />
-            <marker date="1572478033518" expanded="true" signature="249:1206" ph="{...}" />
-            <marker date="1572478033518" expanded="true" signature="315:1150" ph="{...}" />
-            <marker date="1572478033518" expanded="true" signature="1039:1140" ph="{...}" />
+            <marker date="1572478380120" expanded="true" signature="61:1209" ph="{...}" />
+            <marker date="1572478380120" expanded="true" signature="249:1207" ph="{...}" />
+            <marker date="1572478380120" expanded="true" signature="315:1151" ph="{...}" />
+            <marker date="1572478380120" expanded="true" signature="1040:1141" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="-5">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
           <folding>
-            <marker date="1572478076197" expanded="false" signature="6:122" ph="..." />
-            <marker date="1572478076197" expanded="true" signature="168:4039" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="175:1433" ph="f/p" />
-            <marker date="1572478076197" expanded="true" signature="416:499" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="1441:1680" ph="unity methods" />
-            <marker date="1572478076197" expanded="true" signature="1488:1654" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="1685:1885" ph="/* public bool FindPlayer =&gt; target?GetDistance(transform.position, target.position) &lt; range : false; ... */" />
-            <marker date="1572478076197" expanded="true" signature="1892:2853" ph="custom methods" />
-            <marker date="1572478076197" expanded="true" signature="1937:2685" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="2023:2679" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="2064:2637" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="2728:2838" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="2868:4037" ph="debug" />
-            <marker date="1572478076197" expanded="true" signature="2913:2949" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="2982:4021" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="3067:4015" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="3527:3918" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="4062:4588" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="4360:4538" ph="{...}" />
-            <marker date="1572478076197" expanded="true" signature="4565:4586" ph="{...}" />
+            <marker date="1572478386132" expanded="false" signature="6:122" ph="..." />
+            <marker date="1572478386132" expanded="true" signature="168:4029" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="175:1433" ph="f/p" />
+            <marker date="1572478386132" expanded="true" signature="416:499" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="1441:1680" ph="unity methods" />
+            <marker date="1572478386132" expanded="true" signature="1488:1654" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="1685:1885" ph="/* public bool FindPlayer =&gt; target?GetDistance(transform.position, target.position) &lt; range : false; ... */" />
+            <marker date="1572478386132" expanded="true" signature="1892:2838" ph="custom methods" />
+            <marker date="1572478386132" expanded="true" signature="1937:2685" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="2023:2679" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="2064:2637" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="2713:2823" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="2853:4027" ph="debug" />
+            <marker date="1572478386132" expanded="true" signature="2898:2934" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="2967:4011" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="3054:4005" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="3514:3908" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="4052:4578" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="4350:4528" ph="{...}" />
+            <marker date="1572478386132" expanded="true" signature="4555:4576" ph="{...}" />
           </folding>
         </state>
       </provider>

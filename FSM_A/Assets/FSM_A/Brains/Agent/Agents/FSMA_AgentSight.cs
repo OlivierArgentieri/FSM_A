@@ -92,7 +92,7 @@ public class FSMA_AgentSight : MonoBehaviour
 
     private void DrawDebugRay()
     {
-        if (Application.isPlaying) return;
+        //if (Application.isPlaying) return;
         
         switch (sightType)
         {
@@ -105,7 +105,7 @@ public class FSMA_AgentSight : MonoBehaviour
             case AgentSightType.MultiRay:
                 for (int i = -sightAngle/2; i <sightAngle/2; i++)
                 {
-                    Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(Mathf.Sin(Time.time), i, 0) * transform.forward);
+                    Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(Mathf.Sin(Time.time) * 20, i, 0) * transform.forward);
 
                     Gizmos.color = Color.blue;
                     Gizmos.DrawRay(_toTargetRay.origin, _toTargetRay.direction * sightRange);

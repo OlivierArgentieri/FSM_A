@@ -7,12 +7,12 @@ public class FSM_A_AgentSightTypeMultiRay
         for (int i = -(int)_angle / 2; i < _angle / 2; i++)
         {
             //Ray _toTargetRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
-            Ray _toTargetRay = new Ray(_origin.position + Vector3.up * _height,Quaternion.Euler(Mathf.Sin(Time.time), i, 0) * _origin.forward);
+            Ray _toTargetRay = new Ray(_origin.position + Vector3.up * _height,Quaternion.Euler(Mathf.Sin(Time.time) *20, i, 0) * _origin.forward);
             RaycastHit _hit;
 
 
             bool _hitTarget = Physics.Raycast(_toTargetRay, out _hit, _range, _targetLayer);
-            Debug.DrawRay(_origin.position, _toTargetRay.direction * _range, _hitTarget ? Color.blue : Color.red);
+            //.DrawRay(_origin.position, _toTargetRay.direction * _range, _hitTarget ? Color.blue : Color.red);
 
             if (!_hitTarget) continue; // target not found
             if (!Util.HitObstacleBetweenTarget(_hit, _origin.position,(Quaternion.AngleAxis(i, Vector3.up) * _origin.forward), _range, _obstacleLayer))
