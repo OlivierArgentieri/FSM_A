@@ -154,10 +154,10 @@ public class FSMA_AgentSight : MonoBehaviour
             case AgentSightType.MultiRay:
                 for (int i = -sightAngle/2; i <sightAngle/2; i++)
                 {
-                    Ray _sightRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
-                    
+                    Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(0, i, Mathf.Sin(Time.time)*5) * transform.forward);
+
                     Gizmos.color = Color.blue;
-                    Gizmos.DrawRay(_sightRay.origin, _sightRay.direction * sightRange);
+                    Gizmos.DrawRay(_toTargetRay.origin, _toTargetRay.direction * sightRange);
                     Gizmos.color = Color.white;
 
                 }
