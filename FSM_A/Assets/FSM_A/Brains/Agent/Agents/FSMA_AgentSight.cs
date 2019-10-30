@@ -66,19 +66,25 @@ public class FSMA_AgentSight : MonoBehaviour
     {
         Ray _raySight = new Ray(transform.position + Vector3.up * sightHeight, transform.forward);
         RaycastHit _hit;
+        Transform _target;
         bool _hitTarget = Physics.Raycast(_raySight, out _hit, sightRange, targetLayer);
         if(_hitTarget)
         {
             Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
             float _distanceToTarget = _hit.distance;
+            _target = _hit.collider.transform;
             bool _hitObstacle = Physics.Raycast(_raySight, out _hit, sightRange, obstacleLayer);
             Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
-            if (!_hitObstacle) return true;
+            if (!_hitObstacle)
+            {
+                target = _target;
+                return true;
+            }
+            
             float _distanceToObstacle = _hit.distance;
             if (_distanceToObstacle < _distanceToTarget)
                 return false;
-            else
-                return true;
+            return true;
         }
         Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
         return false;
