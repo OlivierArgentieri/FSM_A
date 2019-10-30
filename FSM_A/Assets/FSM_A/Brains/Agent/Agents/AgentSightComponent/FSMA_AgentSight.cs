@@ -11,6 +11,10 @@ public class FSMA_AgentSight : MonoBehaviour
     
         [SerializeField, Header("Target")] Transform target = null;
         //[SerializeField, Header("Range"), Range(0.5f, 50)] float range = 10;
+        [SerializeField, Header("Sight tick time"), Range(0.1f, 10)] private float tickMax = 1;
+
+        [SerializeField, Header("Sight Type")] protected AgentSightType sightType = AgentSightType.EcoPlus;
+        private FSM_A_AgentSightBehaviours behaviour;
 
         public enum AgentSightType
         {
@@ -42,7 +46,8 @@ public class FSMA_AgentSight : MonoBehaviour
         sightTickTimer += Time.deltaTime;
         if (sightTickTimer > tickMax)
         {
-            switch (sightType)
+            TargetDetected  = behaviour.TargetDetected();
+          /*  switch (carrer dans l'axe)')
             {
                 case AgentSightType.EcoPlus:
                     TargetDetected = GetEcoSight();
@@ -52,11 +57,27 @@ public class FSMA_AgentSight : MonoBehaviour
                     break;
                 case AgentSightType.Overlap:
                     break;
-            }
+            }*/
             sightTickTimer = 0;
         }
     }
 
+    void InitBehaviour()
+    {
+        switch (sightType)
+        {
+            case AgentSightType.EcoPlus:
+                behaviour = gameObject.AddComponent<FSM_A_AgentSightEcoPlusBehaviour>();
+                break;
+            case AgentSightType.MultiRay:
+                break;
+            case AgentSightType.Overlap:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
+    /*
     private bool GetEcoSight()
     {
         Ray _raySight = new Ray(transform.position + Vector3.up * sightHeight, transform.forward);
@@ -100,7 +121,7 @@ public class FSMA_AgentSight : MonoBehaviour
         }
         target = null;
         return false;
-    }
+    }*/
 
 
     
@@ -110,9 +131,10 @@ public class FSMA_AgentSight : MonoBehaviour
     #region debug
     private void OnDrawGizmos()
     {
-        DrawDebugRay();
+    //    DrawDebugRay();
     }
 
+    /*
     private void DrawDebugRay()
     {
         if (Application.isPlaying) return;
@@ -139,7 +161,7 @@ public class FSMA_AgentSight : MonoBehaviour
             case AgentSightType.Overlap:
                 break;
         }
-    }
+    }*/
 
     #endregion
   

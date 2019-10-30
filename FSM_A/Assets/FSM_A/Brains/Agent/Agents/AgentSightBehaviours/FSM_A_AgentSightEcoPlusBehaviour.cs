@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class FSM_A_AgentSightEcoPlusBehaviour : FSM_A_AgentSightBehaviours
 {
-    
-    
-    
-    
-    
-    #region custom methods
+    public override bool TargetDetected()
+    {
+        return GetEcoSight();
+    }
 
+
+    #region custom methods
     private bool GetEcoSight()
     {
         Ray _raySight = new Ray(transform.position + Vector3.up * sightHeight, transform.forward);
@@ -32,6 +32,5 @@ public class FSM_A_AgentSightEcoPlusBehaviour : FSM_A_AgentSightBehaviours
         target = null;
         return false;
     }
-
     #endregion
 }

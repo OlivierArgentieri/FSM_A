@@ -3,13 +3,14 @@ using UnityEngine;
 public class FSM_A_AgentSightBehaviours : MonoBehaviour
 {
     #region f/p
-    [SerializeField, Header("Sight tick time"), Range(0.1f, 10)] float tickMax = 1;
-    [SerializeField, Header("Sight Type")] FSMA_AgentSight.AgentSightType sightType = FSMA_AgentSight.AgentSightType.EcoPlus;
-    [SerializeField, Header("Angle Sight"), Range(1f, 360)] int sightAngle = 45;
-    [SerializeField, Header("Range Sight"), Range(1, 100)] float sightRange = 5;
-    [SerializeField, Header("Height Sight"), Range(0.1f, 10)] float sightHeight = 1;
-    [SerializeField, Header("Target layer")] LayerMask targetLayer = 0;
-    [SerializeField, Header("Obstacle Layer")] LayerMask obstacleLayer = 0;
+    [SerializeField, Header("Angle Sight"), Range(1f, 360)] protected int sightAngle = 45;
+    [SerializeField, Header("Range Sight"), Range(1, 100)]protected float sightRange = 5;
+    [SerializeField, Header("Height Sight"), Range(0.1f, 10)]protected float sightHeight = 1;
+    [SerializeField, Header("Target layer")]protected LayerMask targetLayer = 0;
+    [SerializeField, Header("Obstacle Layer")]protected LayerMask obstacleLayer = 0;
+    [SerializeField, Header("Obstacle Layer")]protected Transform target = null;
+
+    public Transform Target => target;
     #endregion
     
     
