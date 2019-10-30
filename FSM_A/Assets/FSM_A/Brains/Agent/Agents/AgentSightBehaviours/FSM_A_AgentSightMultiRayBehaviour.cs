@@ -17,7 +17,7 @@ public class FSM_A_AgentSightMultiRayBehaviour : FSM_A_AgentSightBehaviour
             RaycastHit _hit;
 
             bool _hitTarget = Physics.Raycast(_toTargetRay, out _hit, sightRange , targetLayer);
-            Debug.DrawRay(transform.position, _toTargetRay.direction * sightRange, _hitTarget ? Color.blue : Color.red);
+           // Debug.DrawRay(transform.position, _toTargetRay.direction * sightRange, _hitTarget ? Color.blue : Color.red);
 
             if (!_hitTarget) continue; // target not found
             if(!HitObstacleBetweenTarget(_hit,transform.position , (Quaternion.AngleAxis(i, Vector3.up)*transform.forward),sightRange, obstacleLayer ))
@@ -41,8 +41,10 @@ public class FSM_A_AgentSightMultiRayBehaviour : FSM_A_AgentSightBehaviour
         for (int i = -sightAngle/2; i < sightAngle/2; i++)
         {
             Ray _sightRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
-                    
-            Gizmos.color = Color.blue;
+            RaycastHit _hit;
+            bool _hitTarget = Physics.Raycast(_sightRay, out _hit, sightRange , targetLayer);
+            
+            Gizmos.color = _hitTarget? Color.blue : Color.red;
             Gizmos.DrawRay(_sightRay.origin, _sightRay.direction * sightRange);
             Gizmos.color = Color.white;
         }

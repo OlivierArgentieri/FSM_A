@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviour.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightMultiRayBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightMultiRayBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightEcoPlusBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightEcoPlusBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSMA_AgentSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSMA_AgentSight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSM_A_AgentSightBehaviours.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSM_A_AgentSightBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSM_A_AgentSightBehaviours.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSM_A_AgentSightBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightMultiRayBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightMultiRayBehaviour.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +56,10 @@
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightBehaviours.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSM_A_AgentSightBehaviours.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightMultiRayBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightEcoPlusBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSM_A_AgentSightBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightComponent/FSMA_AgentSight.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/AgentSightBehaviours/FSM_A_AgentSightMultiRayBehaviour.cs" />
       </list>
     </option>
   </component>
