@@ -30,13 +30,24 @@ public class FSMA_AgentSight : MonoBehaviour
         [SerializeField, Header("Obstacle Layer")] LayerMask obstacleLayer = 0;
         public bool TargetDetected { get; private set; } = false;
         public Transform Target => target;
-    #endregion
+
+        public FSM_A_AgentSightTypeEcoPlus EcoPlus { get; private set; } = null;
+        public FSM_A_AgentSightTypeMultiRay MultiRay { get; private set; } = null;
+
+        #endregion
 
 
 
     #region unity methods
 
-    private void Awake() => OnUdpateSight += UpdateSight;
+    private void Awake()
+    {
+        OnUdpateSight += UpdateSight;
+        EcoPlus = new FSM_A_AgentSightTypeEcoPlus();
+        MultiRay= new FSM_A_AgentSightTypeMultiRay();
+        
+    } 
+        
 
     #endregion
     //public bool FindPlayer => target?GetDistance(transform.position, target.position) < range : false;
@@ -52,10 +63,10 @@ public class FSMA_AgentSight : MonoBehaviour
             switch (sightType)
             {
                 case AgentSightType.EcoPlus:
-                    TargetDetected = GetEcoSight();
+                    TargetDetected = EcoPlus.GetEcoSight(transform.position, transform.forward, sightHeight, sightRange, targetLayer, obstacleLayer, ref target);
                     break;
                 case AgentSightType.MultiRay:
-                    TargetDetected = GetMultiRay();
+                    TargetDetected = MultiRay.GetMultiRay(transform, transform.forward, sightHeight, sightRange, sightAngle, targetLayer, obstacleLayer, ref target);
                     break;
                 case AgentSightType.Overlap:
                     break;
@@ -64,67 +75,7 @@ public class FSMA_AgentSight : MonoBehaviour
         }
     }
 
-    private bool GetEcoSight()
-    {
-        Ray _raySight = new Ray(transform.position + Vector3.up * sightHeight, transform.forward);
-        RaycastHit _hit;
-        Transform _target;
-        bool _hitTarget = Physics.Raycast(_raySight, out _hit, sightRange, targetLayer);
-        if(_hitTarget)
-        {
-            Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
-            _target = _hit.collider.transform;
-
-            if (!HitObstacleBetweenTarget(_hit, _raySight.origin, _target.position, sightRange, obstacleLayer))
-            {
-                target = _target;
-                return true;
-            }
-            target = null;
-            return false;
-        }
-        Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
-        target = null;
-        return false;
-    }
-
-    private bool GetMultiRay()
-    {
-        for (int i = -sightAngle/2; i <sightAngle/2; i++)
-        {
-            //Ray _toTargetRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
-            Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(0, i, Mathf.Sin(Time.time) *-10) * transform.forward);
-            RaycastHit _hit;
-
-            bool _hitTarget = Physics.Raycast(_toTargetRay, out _hit, sightRange , targetLayer);
-            Debug.DrawRay(transform.position, _toTargetRay.direction * sightRange, _hitTarget ? Color.blue : Color.red);
-
-            if (!_hitTarget) continue; // target not found
-            if(!HitObstacleBetweenTarget(_hit,transform.position , (Quaternion.AngleAxis(i, Vector3.up)*transform.forward),sightRange, obstacleLayer ))
-            {
-                target = _hit.transform;
-                return true;
-            }
-        }
-        target = null;
-        return false;
-    }
-
-
-    bool HitObstacleBetweenTarget(RaycastHit _targetHit, Vector3 _origin, Vector3 _dicrection, float _maxDistance, LayerMask _obstacleLayer)
-    {
-        float _distantToTarget = _targetHit.distance;
-        Ray _toTargetRay = new Ray(_origin, _dicrection);
-        RaycastHit _hit;
-        bool _hitObstacle = Physics.Raycast(_toTargetRay, out _hit, _maxDistance, _obstacleLayer);
-        if (!_hitObstacle) return false; // obstacle not found
-        
-        float _distanceToObstacle = _hit.distance;
-
-        return _distanceToObstacle < _distantToTarget;
-    }
-
-
+    
     bool HitOverlap()
     {
         Physics.OverlapSphere(transform.position, sightRange, targetLayer);
@@ -154,7 +105,7 @@ public class FSMA_AgentSight : MonoBehaviour
             case AgentSightType.MultiRay:
                 for (int i = -sightAngle/2; i <sightAngle/2; i++)
                 {
-                    Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(0, i, Mathf.Sin(Time.time)*5) * transform.forward);
+                    Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(Mathf.Sin(Time.time), i, 0) * transform.forward);
 
                     Gizmos.color = Color.blue;
                     Gizmos.DrawRay(_toTargetRay.origin, _toTargetRay.direction * sightRange);
@@ -168,7 +119,6 @@ public class FSMA_AgentSight : MonoBehaviour
     }
 
     #endregion
-  
 }
 
 
