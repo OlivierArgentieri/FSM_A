@@ -8,6 +8,7 @@ public class FSM_A_AgentSightBehaviour : MonoBehaviour
     [SerializeField, Header("Range Sight"), Range(1, 100)]protected float sightRange = 5;
     [SerializeField, Header("Height Sight"), Range(0.1f, 10)]protected float sightHeight = 1;
     [SerializeField, Header("Obstacle Layer")]protected Transform target = null;
+    
     [SerializeField, Header("Target layer")]protected LayerMask targetLayer = 0;
     [SerializeField, Header("Obstacle Layer")]protected LayerMask obstacleLayer = 0;
 

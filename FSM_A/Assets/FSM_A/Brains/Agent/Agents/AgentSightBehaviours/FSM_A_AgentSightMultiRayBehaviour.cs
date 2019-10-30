@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class FSM_A_AgentSightMultiRayBehaviour : FSM_A_AgentSightBehaviour
@@ -40,12 +41,11 @@ public class FSM_A_AgentSightMultiRayBehaviour : FSM_A_AgentSightBehaviour
     {
         for (int i = -sightAngle/2; i < sightAngle/2; i++)
         {
-            Ray _sightRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
-            RaycastHit _hit;
-            bool _hitTarget = Physics.Raycast(_sightRay, out _hit, sightRange , targetLayer);
+            Quaternion _direction = Quaternion.Euler(Mathf.Sin(Time.time) * 20, i, 0);
+            bool _isHit = Physics.Raycast(transform.position, _direction * transform.forward * sightRange, targetLayer);
             
-            Gizmos.color = _hitTarget? Color.blue : Color.red;
-            Gizmos.DrawRay(_sightRay.origin, _sightRay.direction * sightRange);
+            Gizmos.color = _isHit? Color.blue : Color.red;
+            Gizmos.DrawRay(transform.position, _direction * transform.forward* sightRange);
             Gizmos.color = Color.white;
         }
     }
