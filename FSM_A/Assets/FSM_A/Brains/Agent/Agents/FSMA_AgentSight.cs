@@ -54,6 +54,7 @@ public class FSMA_AgentSight : MonoBehaviour
                     TargetDetected = GetEcoSight();
                     break;
                 case AgentSightType.MultiRay:
+                    TargetDetected = GetMultiRay();
                     break;
                 case AgentSightType.Overlap:
                     break;
@@ -71,31 +72,56 @@ public class FSMA_AgentSight : MonoBehaviour
         if(_hitTarget)
         {
             Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
-            float _distanceToTarget = _hit.distance;
             _target = _hit.collider.transform;
-            bool _hitObstacle = Physics.Raycast(_raySight, out _hit, sightRange, obstacleLayer);
-            Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
-            if (!_hitObstacle)
+
+            if (!HitObstacleBetweenTarget(_hit, _raySight.origin, _target.position, sightRange, obstacleLayer))
             {
                 target = _target;
                 return true;
             }
-            
-            float _distanceToObstacle = _hit.distance;
-            if (_distanceToObstacle < _distanceToTarget)
-            {
-                target = null;
-                return false;
-            }
-            return true;
+            target = null;
+            return false;
         }
         Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : sightRange), _hitTarget ? Color.blue : Color.red);
         target = null;
         return false;
     }
+
+    private bool GetMultiRay()
+    {
+        for (int i = -sightAngle/2; i <sightAngle/2; i++)
+        {
+            Ray _toTargetRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
+            RaycastHit _hit;
+
+            bool _hitTarget = Physics.Raycast(_toTargetRay, out _hit, sightRange , targetLayer);
+            Debug.DrawRay(transform.position, _toTargetRay.direction * sightRange, _hitTarget ? Color.blue : Color.red);
+
+            if (!_hitTarget) continue; // target not found
+            if(!HitObstacleBetweenTarget(_hit,transform.position , (Quaternion.AngleAxis(i, Vector3.up)*transform.forward),sightRange, obstacleLayer ))
+            {
+                target = _hit.transform;
+                return true;
+            }
+        }
+        target = null;
+        return false;
+    }
+
+
+    bool HitObstacleBetweenTarget(RaycastHit _targetHit, Vector3 _origin, Vector3 _dicrection, float _maxDistance, LayerMask _obstacleLayer)
+    {
+        float _distantToTarget = _targetHit.distance;
+        Ray _toTargetRay = new Ray(_origin, _dicrection);
+        RaycastHit _hit;
+        bool _hitObstacle = Physics.Raycast(_toTargetRay, out _hit, _maxDistance, _obstacleLayer);
+        if (!_hitObstacle) return false; // obstacle not found
+        
+        float _distanceToObstacle = _hit.distance;
+
+        return _distanceToObstacle < _distantToTarget;
+    }
     #endregion
-    
-    
     
     
     #region debug
@@ -117,6 +143,15 @@ public class FSMA_AgentSight : MonoBehaviour
                 Gizmos.color = Color.white;
                 break;
             case AgentSightType.MultiRay:
+                for (int i = -sightAngle/2; i <sightAngle/2; i++)
+                {
+                    Ray _sightRay = new Ray(transform.position, (Quaternion.AngleAxis(i, Vector3.up)*transform.forward));
+                    
+                    Gizmos.color = Color.blue;
+                    Gizmos.DrawRay(_sightRay.origin, _sightRay.direction * sightRange);
+                    Gizmos.color = Color.white;
+
+                }
                 break;
             case AgentSightType.Overlap:
                 break;
