@@ -2,56 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSMA_AgentSight.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeOverlap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeOverlap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/IAgent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Agent/IAgent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/IABrain.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/IABrain.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Logic.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Logic/FSMA_Logic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/Logic/FSMA_Logic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/FSMA_State.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/FSMA_State.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_FindingPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_FindingPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_MoveTo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Brains/State/States/FSMA_MoveTo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Editor/FSMA_SightEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Editor/FSMA_SightEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Enemy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Enemy/FSMA_Ennemy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Enemy/FSMA_Ennemy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Player/FSM_A_PlayerManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Player/FSM_A_PlayerManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Player/PlayerComponent.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Player/PlayerComponent/FSM_A_PlayerComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Player/PlayerComponent/FSM_A_PlayerComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/TemplateManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/TemplateManager/TemplateManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/TemplateManager/TemplateManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Util.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Util/Util.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Util/Util.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,12 +59,6 @@
         <option value="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1765" />
-    <option name="y" value="-12" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1Sum2Wsz3ImbZODSfgGakx0Aywk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -171,7 +118,7 @@
       <workItem from="1572356032695" duration="15996000" />
       <workItem from="1572421671168" duration="9531000" />
       <workItem from="1572456492913" duration="5449000" />
-      <workItem from="1572508870202" duration="5409000" />
+      <workItem from="1572508870202" duration="6090000" />
     </task>
     <servers />
   </component>
