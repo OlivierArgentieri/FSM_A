@@ -17,12 +17,9 @@
 
              if (!Util.HitObstacleBetweenTarget(_hit, _raySight.origin, _target.position, _range, _obstacleLayer))
              {
-                 return true;
                  _targetRef = _target;
+                 return true;
              }
-
-             _targetRef = null;
-             
          }
          Debug.DrawRay(_raySight.origin, _raySight.direction * (_hitTarget ? _hit.distance : _range), _hitTarget ? Color.blue : Color.red);
          _targetRef = null;
