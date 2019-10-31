@@ -34,6 +34,9 @@ public class FSMA_AgentSight : MonoBehaviour
         public FSM_A_AgentSightTypeEcoPlus EcoPlus { get; private set; } = new FSM_A_AgentSightTypeEcoPlus();
         public FSM_A_AgentSightTypeMultiRay MultiRay { get; private set; } = new FSM_A_AgentSightTypeMultiRay();
         public FSM_A_AgentSightTypeOverlap OverlapRay { get; private set; } = new FSM_A_AgentSightTypeOverlap();
+        public AgentSightType SightType => sightType;
+        public float SightRange => sightRange;
+        public float SightAngle => sightAngle;
         #endregion
 
 

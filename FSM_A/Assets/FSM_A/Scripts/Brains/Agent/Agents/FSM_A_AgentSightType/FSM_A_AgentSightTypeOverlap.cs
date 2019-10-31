@@ -28,7 +28,7 @@ public class FSM_A_AgentSightTypeOverlap
 
     public void DrawGizmo(Transform _transform, float _range, Transform _detedtedTarget)
     {
-        Gizmos.DrawWireSphere(_transform.position, _range);
+        //Gizmos.DrawWireSphere(_transform.position, _range);
 
         if (_detedtedTarget)
         {
