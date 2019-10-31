@@ -25,4 +25,12 @@
          _targetRef = null;
          return false;
      }
+
+     public void DrawGizmos(Transform _origin, float _height, float _range)
+     {
+         Ray _raySight = new Ray(_origin.position + Vector3.up * _height, _origin.forward);
+         Gizmos.color = Color.blue;
+         Gizmos.DrawRay(_raySight.origin, _raySight.direction * _range);
+         Gizmos.color = Color.white;
+     }
  }

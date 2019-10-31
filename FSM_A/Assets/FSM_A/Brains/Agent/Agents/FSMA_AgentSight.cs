@@ -31,9 +31,9 @@ public class FSMA_AgentSight : MonoBehaviour
         public bool TargetDetected { get; private set; } = false;
         public Transform Target => target;
 
-        public FSM_A_AgentSightTypeEcoPlus EcoPlus { get; private set; } = null;
-        public FSM_A_AgentSightTypeMultiRay MultiRay { get; private set; } = null;
-
+        public FSM_A_AgentSightTypeEcoPlus EcoPlus { get; private set; } = new FSM_A_AgentSightTypeEcoPlus();
+        public FSM_A_AgentSightTypeMultiRay MultiRay { get; private set; } = new FSM_A_AgentSightTypeMultiRay();
+        public FSM_A_AgentSightTypeOverlap OverlapRay { get; private set; } = new FSM_A_AgentSightTypeOverlap();
         #endregion
 
 
@@ -43,10 +43,7 @@ public class FSMA_AgentSight : MonoBehaviour
     private void Awake()
     {
         OnUdpateSight += UpdateSight;
-        EcoPlus = new FSM_A_AgentSightTypeEcoPlus();
-        MultiRay= new FSM_A_AgentSightTypeMultiRay();
-        
-    } 
+    }
         
 
     #endregion
@@ -69,6 +66,7 @@ public class FSMA_AgentSight : MonoBehaviour
                     TargetDetected = MultiRay.GetMultiRay(transform, transform.forward, sightHeight, sightRange, sightAngle, targetLayer, obstacleLayer, ref target);
                     break;
                 case AgentSightType.Overlap:
+                    TargetDetected = OverlapRay.GetOverlapSight(transform, ref target, obstacleLayer, targetLayer, sightRange, sightAngle);
                     break;
             }
             sightTickTimer = 0;
@@ -97,23 +95,13 @@ public class FSMA_AgentSight : MonoBehaviour
         switch (sightType)
         {
             case AgentSightType.EcoPlus:
-                Ray _raySight = new Ray(transform.position + Vector3.up * sightHeight, transform.forward);
-                Gizmos.color = Color.blue;
-                Gizmos.DrawRay(_raySight.origin, _raySight.direction * sightRange);
-                Gizmos.color = Color.white;
+                EcoPlus.DrawGizmos(transform, sightHeight, sightRange);
                 break;
             case AgentSightType.MultiRay:
-                for (int i = -sightAngle/2; i <sightAngle/2; i++)
-                {
-                    Ray _toTargetRay = new Ray(transform.position  + Vector3.up * sightHeight, Quaternion.Euler(Mathf.Sin(Time.time) * 20, i, 0) * transform.forward);
-
-                    Gizmos.color = Color.blue;
-                    Gizmos.DrawRay(_toTargetRay.origin, _toTargetRay.direction * sightRange);
-                    Gizmos.color = Color.white;
-
-                }
+                MultiRay.DrawGizmos(transform, sightHeight, sightRange, sightAngle, targetLayer, obstacleLayer);
                 break;
             case AgentSightType.Overlap:
+                OverlapRay.DrawGizmo(transform, sightRange, target);
                 break;
         }
     }
