@@ -95,10 +95,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86cd24a58ddc27a44bd2aa432832d67e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  param: findPlayer
-  target: {fileID: 0}
-  range: 20.8
-  param: findPlayer
 --- !u!114 &-2829881878846133524
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,6 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b262dc838ef1546bf880ae1f39e852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paramSight: findPlayer
+  paramMovement: isNotAtTarget
 --- !u!1102 &-23829425296714535
 AnimatorState:
   serializedVersion: 5
@@ -152,14 +150,14 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
-    m_Controller: {fileID: 9100000}
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: findPlayer
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -238,13 +236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32fd6ffd11ef469489bbb5ae21e37105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  param: isNotAtTarget
-  findPlayer: {fileID: 0}
-  target: {fileID: 0}
-  atPosDistance: 0.89
-  param: isNotAtTarget
-  speed: 1.49
-  rotateSpeed: 217
 --- !u!1107 &6776051067275009630
 AnimatorStateMachine:
   serializedVersion: 5
@@ -263,6 +254,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -23829425296714535}
     m_Position: {x: 240, y: 220, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7315346117313408239}
+    m_Position: {x: 450, y: 220, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -274,3 +268,29 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 40, y: 200, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -6978476650670976180}
+--- !u!1102 &7315346117313408239
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New State
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 0}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 

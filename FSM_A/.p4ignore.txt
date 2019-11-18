@@ -1,0 +1,6 @@
+./temp/*
+./.idea/*
+./obj/*
+./Logs/*
+./Library/*
+
