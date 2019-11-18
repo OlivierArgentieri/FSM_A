@@ -85,7 +85,7 @@ public class FSMA_Detection : MonoBehaviour
 
     void ResetDetection()
     {
-        if (Attempt > ResetCount)
+        if (Attempt >= ResetCount)
         {
             searchZones.Clear();
             Attempt = 0;
