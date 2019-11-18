@@ -18,6 +18,7 @@ public class DetectionEditor : EditoolsUnity.EditorCustom<FSMA_Detection>
     {
         DrawDetectionInfo();
         DrawDetectionScene();
+        DrawHotMap();
     }
 
     #endregion
@@ -52,6 +53,19 @@ public class DetectionEditor : EditoolsUnity.EditorCustom<FSMA_Detection>
         EditoolsUnity.EditoolsHandle.DrawDottedLine(eTarget.SearchPos, eTarget.transform.position, 1);
     }
 
+    void DrawHotMap()
+    {
+        Handles.color = Color.yellow;
+        for (int i = 0; i < eTarget.SearchZones.Count; i++)
+        {
+            Handles.DrawWireDisc(eTarget.SearchZones[i], Vector3.up, 3);
+            Handles.DrawSolidDisc(eTarget.SearchZones[i], Vector3.up , 1.5f);
+            if(i < eTarget.SearchZones.Count -1)
+                Handles.DrawDottedLine(eTarget.SearchZones[i], eTarget.SearchZones[i+1], .5f);
+        }
+        Handles.color = Color.white;
+
+    }
 
     GUIStyle SetStyle(Color _color, int _font, TextAnchor _alignment, StyleMode _styleMode, FontStyle _style = FontStyle.Bold)
     {

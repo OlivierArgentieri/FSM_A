@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,12 +70,12 @@
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_Detection.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/IAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/PlayerComponent/FSM_A_PlayerComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +149,7 @@
       <workItem from="1572508870202" duration="6090000" />
       <workItem from="1573203301607" duration="3664000" />
       <workItem from="1573640038946" duration="4738000" />
-      <workItem from="1574064882326" duration="19102000" />
+      <workItem from="1574064882326" duration="20608000" />
     </task>
     <servers />
   </component>

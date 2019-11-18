@@ -9,7 +9,7 @@ public sealed class FSMA_Logic : StateMachineBehaviour
     IAgent currentAgent = null;
 
     [SerializeField, Header("Find Animator parameter")] string paramSight = "findPlayer";
-    [SerializeField, Header("Move to target Animator parameter")] string moveToTargetParam = "isNotAtTarget";
+    [SerializeField, Header("Move to target Animator parameter")] string moveToTargetParam = "isAtTarget";
     [SerializeField, Header("Move to find Animator parameter")] string movementFindParam = "isNotAtFind";
 
     public IAgent Agent => currentAgent;

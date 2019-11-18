@@ -22,7 +22,16 @@ public class FSMA_Detection : MonoBehaviour
     
     private float initRadius = 0;
 
+    List<Vector3> searchZones = new List<Vector3>();
 
+    public List<Vector3> SearchZones => searchZones; 
+    public int Panic { get; private set; } = 1;
+    public int Skip { get; private set; } = 0;
+    public int Reward { get; private set; } = 0;
+    public float Speed => Panic * .5f;
+    public int ResetCount { get; private set; } = 50;
+    
+    public float SuccessPercent => searchZones.Count > 0 ? (((float) Reward / searchZones.Count) * 100) : 0;
     public float Radius
     {
         get { return radius; }
@@ -48,6 +57,11 @@ public class FSMA_Detection : MonoBehaviour
     {
         LastPos = GetPositionOnCircle(TargetPos, Radius, GetRandomAngle(0, 360));
         SearchPos = GetPositionOnCircle(LastPos, Radius, GetRandomAngle(0, 360));
+        searchZones.Add(SearchPos);
+
+        if (searchZones.Count > ResetCount)
+            searchZones.Clear();
+        
     }
 
 

@@ -31,7 +31,7 @@ public class FSMA_AgentMovement : MonoBehaviour
     public void Move()
     {
        // if (!IsValid) return;
-       Debug.Log("test");
+   
         if (IsAtPos) return;
         transform.position = Vector3.MoveTowards(transform.position, TargetPosition, Time.deltaTime * speed);
         
