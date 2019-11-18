@@ -72,6 +72,8 @@ public class FSMA_AgentSight : MonoBehaviour
                     TargetDetected = OverlapRay.GetOverlapSight(transform, ref target, obstacleLayer, targetLayer, sightRange, sightAngle);
                     break;
             }
+
+            if (!TargetDetected) target = null;
             sightTickTimer = 0;
         }
     }

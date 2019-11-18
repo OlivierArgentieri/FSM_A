@@ -31,8 +31,15 @@ public class DetectionEditor : EditoolsUnity.EditorCustom<FSMA_Detection>
         Handles.BeginGUI();
         GUILayout.BeginArea(new Rect(0, 0, Screen.width * .5f, Screen.height));
         GUILayout.Box($"Detection Agent Track {eTarget.name}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
+        GUILayout.Box($"Detection Agent Attempt {eTarget.Attempt}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
+        GUILayout.Box($"Detection Agent Reward {eTarget.Reward}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
+        GUILayout.Box($"Detection Agent Success Percent {eTarget.SuccessPercent}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
+        GUILayout.Box($"Detection Agent Panic {eTarget.Panic}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
+        GUILayout.Box($"Detection Agent Speed {eTarget.Speed}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         GUILayout.Box($"Detection Agent Radius {eTarget.Radius}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         eTarget.Radius = GUILayout.HorizontalSlider(eTarget.Radius, 0, 20);
+        
+        EditorGUILayout.Space();
         if (GUILayout.Button("Test Detection", SetStyle(Color.yellow, 12, TextAnchor.MiddleCenter, StyleMode.Button, FontStyle.Bold))) eTarget.Search();
         GUILayout.EndArea();
         Handles.EndGUI();

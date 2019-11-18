@@ -24,14 +24,19 @@ public class FSMA_Detection : MonoBehaviour
 
     List<Vector3> searchZones = new List<Vector3>();
 
-    public List<Vector3> SearchZones => searchZones; 
-    public int Panic { get; private set; } = 1;
+    public List<Vector3> SearchZones => searchZones;
+
+    public int Attempt { get; private set; } = 0;
+    public int Panic { get; private set; } = 0;
     public int Skip { get; private set; } = 0;
     public int Reward { get; private set; } = 0;
-    public float Speed => Panic * .5f;
-    public int ResetCount { get; private set; } = 50;
+    public float Speed => Panic * 2f;
+    public int ResetCount { get; private set; } = 10;
     
-    public float SuccessPercent => searchZones.Count > 0 ? (((float) Reward / searchZones.Count) * 100) : 0;
+    public float SuccessPercent => Attempt > 0 ? (((float) Reward / Attempt) * 100) : 0;
+
+    private bool targetDetected = false;
+    
     public float Radius
     {
         get { return radius; }
@@ -53,17 +58,40 @@ public class FSMA_Detection : MonoBehaviour
 
     #region custom methods
 
+    public void GiveReward()
+    {
+        if(!targetDetected)
+            Reward++;
+        targetDetected = true;
+    }
+
+    public void AddPanic()
+    {
+        Panic++;
+        Panic = Panic > ResetCount ? 1 : Panic;
+        if (Panic == 1) Radius = initRadius;
+        radius += .25f * Panic;
+    }
     public void Search()
     {
         LastPos = GetPositionOnCircle(TargetPos, Radius, GetRandomAngle(0, 360));
         SearchPos = GetPositionOnCircle(LastPos, Radius, GetRandomAngle(0, 360));
         searchZones.Add(SearchPos);
-
-        if (searchZones.Count > ResetCount)
-            searchZones.Clear();
-        
+        Attempt++;
+        targetDetected = false;
+        ResetDetection();
+        AddPanic();
     }
 
+    void ResetDetection()
+    {
+        if (Attempt > ResetCount)
+        {
+            searchZones.Clear();
+            Attempt = 0;
+        }
+
+    }
 
     Vector3 GetPositionOnCircle(Vector3 _center, float _radius, float _angle)
     {
