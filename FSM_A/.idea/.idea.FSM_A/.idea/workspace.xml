@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/IAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/IAgent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/PlayerComponent/FSM_A_PlayerComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/PlayerComponent/FSM_A_PlayerComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,10 +123,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="75180">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="96540">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="75180" />
+      <option name="pid" value="96540" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -159,7 +148,7 @@
       <workItem from="1572508870202" duration="6090000" />
       <workItem from="1573203301607" duration="3664000" />
       <workItem from="1573640038946" duration="4738000" />
-      <workItem from="1574064882326" duration="17268000" />
+      <workItem from="1574064882326" duration="19102000" />
     </task>
     <servers />
   </component>

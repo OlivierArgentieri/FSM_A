@@ -70,8 +70,8 @@ public sealed class FSMA_Logic : StateMachineBehaviour
         else
         {
             _animator.SetBool(moveToTargetParam, false);
-            _animator.SetBool(movementFindParam, true);
-            //Movement.SetTarget();
+            _animator.SetBool(movementFindParam, !Movement.IsAtPos);
+            Movement.SetTarget(Detection.SearchPos);
         }
     }
 }
