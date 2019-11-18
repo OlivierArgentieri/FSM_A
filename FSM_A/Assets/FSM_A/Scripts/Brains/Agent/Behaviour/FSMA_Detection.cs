@@ -33,7 +33,7 @@ public class FSMA_Detection : MonoBehaviour
     public float Speed => Panic * 2f;
     public int ResetCount { get; private set; } = 10;
     
-    public float SuccessPercent => Attempt > 0 ? (((float) Reward / Attempt) * 100) : 0;
+    public float SuccessPercent => Attempt > 0 ? (((float) Reward / Attempt ) * 100) : 0;
 
     private bool targetDetected = false;
     
@@ -72,6 +72,7 @@ public class FSMA_Detection : MonoBehaviour
         if (Panic == 1) Radius = initRadius;
         radius += .25f * Panic;
     }
+    
     public void Search()
     {
         LastPos = GetPositionOnCircle(TargetPos, Radius, GetRandomAngle(0, 360));
@@ -90,7 +91,6 @@ public class FSMA_Detection : MonoBehaviour
             searchZones.Clear();
             Attempt = 0;
         }
-
     }
 
     Vector3 GetPositionOnCircle(Vector3 _center, float _radius, float _angle)
@@ -104,9 +104,6 @@ public class FSMA_Detection : MonoBehaviour
 
     float GetRandomAngle(float _angleMin, float _angleMax) => UnityEngine.Random.Range(_angleMin, _angleMax);
 
-    private void OnDrawGizmos()
-    {
-    }
 
     #endregion
 }
