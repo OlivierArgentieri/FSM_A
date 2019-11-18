@@ -42,4 +42,6 @@ public class FSMA_AgentMovement : MonoBehaviour
     }
 
     public void SetTarget(Transform _t) => target = _t;
+    //public void SetTarget(Vector3 _target) => target = _t;
+    
 }

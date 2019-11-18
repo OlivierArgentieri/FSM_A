@@ -120,51 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &191417492
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 191417494}
-  - component: {fileID: 191417493}
-  m_Layer: 0
-  m_Name: FSMA_Detection
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &191417493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191417492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f145fe9874f1d940ad06f0fd9d4367a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 8
-  target: {fileID: 1401915263}
---- !u!4 &191417494
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191417492}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.2, y: -22.496212, z: -31.888367}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &630862447
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,7 +485,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40d9a6b1cca8b6c4e906e30dc20aebb4, type: 2}
+  - {fileID: 2100000, guid: a1b5b512d48fe124ea4625c0a1c5eed6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -572,6 +527,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2002901113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 197230978556794273, guid: c48f7cf334000814983d8074eff60af1,
+    type: 3}
+  m_PrefabInstance: {fileID: 197230978716964513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2002901122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002901113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f145fe9874f1d940ad06f0fd9d4367a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 7
+  target: {fileID: 1401915263}
 --- !u!1001 &197230978716964513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -582,7 +557,7 @@ PrefabInstance:
     - target: {fileID: 197230978556794273, guid: c48f7cf334000814983d8074eff60af1,
         type: 3}
       propertyPath: m_Name
-      value: Agent sight [EDITOR]
+      value: FSMA_Detection
       objectReference: {fileID: 0}
     - target: {fileID: 197230978556794278, guid: c48f7cf334000814983d8074eff60af1,
         type: 3}

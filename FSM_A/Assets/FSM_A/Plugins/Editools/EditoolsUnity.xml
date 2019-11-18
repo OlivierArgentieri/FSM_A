@@ -4,6 +4,36 @@
         <name>EditoolsUnity</name>
     </assembly>
     <members>
+        <member name="T:EditoolsUnity.EditoolsBox">
+            <summary>
+            Class box of editools
+            </summary>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsBox.HelpBox(System.String,UnityEditor.MessageType)">
+            <summary>
+            Create HelpBox
+            </summary>
+            <param name="_message"></param>
+            <param name="_messageType"></param>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsBox.HelpBoxWarning(System.String)">
+            <summary>
+            Create Warning HelpBox
+            </summary>
+            <param name="_message"></param>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsBox.HelpBoxError(System.String)">
+            <summary>
+            Create Error Warning
+            </summary>
+            <param name="_message"></param>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsBox.HelpBoxInfo(System.String)">
+            <summary>
+            Create Info Helpbox
+            </summary>
+            <param name="_message"></param>
+        </member>
         <member name="T:EditoolsUnity.EditoolsButton">
             <summary>
             Class button of Editools
@@ -121,6 +151,12 @@
             <param name="_cancelText"></param>
             <param name="_showCondition"></param>
         </member>
+        <member name="T:EditoolsUnity.EditorCustom`1">
+            <summary>
+            template class to create new editor
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
         <member name="T:EditoolsUnity.EditoolsField">
             <summary>
             Class field of Editools
@@ -215,15 +251,6 @@
             <param name="_leftValue"></param>
             <param name="_rightValue"></param>
         </member>
-        <member name="M:EditoolsUnity.EditoolsField.ObjectField(UnityEngine.Object@,System.Type,System.Boolean)">
-            <summary>
-            Create ObjectField with output parameter
-            </summary>
-            <param name="_o"></param>
-            <param name="_typeObject"></param>
-            <param name="_allowSceneObject"></param>
-            <returns></returns>
-        </member>
         <member name="M:EditoolsUnity.EditoolsField.ObjectField(UnityEngine.Object,System.Type,System.Boolean)">
             <summary>
             Create ObjectField with return value
@@ -247,90 +274,12 @@
             <param name="_label"></param>
             <param name="_value"></param>
         </member>
-        <member name="M:EditoolsUnity.EditoolsField.EnumPopup(System.String,System.Enum@)">
-            <summary>
-            Create EnumPopup with output parameter
-            </summary>
-            <param name="_label"></param>
-            <param name="_type"></param>
-        </member>
         <member name="M:EditoolsUnity.EditoolsField.EnumPopup(System.String,System.Enum)">
             <summary>
             Create EnumPopup with return parameter
             </summary>
             <param name="_label"></param>
             <param name="_type"></param>
-        </member>
-        <member name="T:EditoolsUnity.EditoolsBox">
-            <summary>
-            Class box of editools
-            </summary>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsBox.HelpBox(System.String,UnityEditor.MessageType)">
-            <summary>
-            Create HelpBox
-            </summary>
-            <param name="_message"></param>
-            <param name="_messageType"></param>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsBox.HelpBoxWarning(System.String)">
-            <summary>
-            Create Warning HelpBox
-            </summary>
-            <param name="_message"></param>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsBox.HelpBoxError(System.String)">
-            <summary>
-            Create Error Warning
-            </summary>
-            <param name="_message"></param>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsBox.HelpBoxInfo(System.String)">
-            <summary>
-            Create Info Helpbox
-            </summary>
-            <param name="_message"></param>
-        </member>
-        <member name="T:EditoolsUnity.EditoolsLayout">
-            <summary>
-            Class Layout of editools
-            </summary>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsLayout.Space(System.Int32)">
-            <summary>
-            Create Space with repeting parameters
-            </summary>
-            <param name="_i"></param>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsLayout.Horizontal(System.Boolean)">
-            <summary>
-            Create Start or End GUILayout Horizontal
-            </summary>
-            <param name="_begin"></param>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsLayout.Vertical(System.Boolean)">
-            <summary>
-            Create Start or End GUILayout Vertical
-            </summary>
-            <param name="_begin"></param>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsLayout.Foldout(System.Boolean,System.String,System.Boolean)">
-            <summary>
-            Create Foldout and return the boolean value
-            </summary>
-            <param name="_foldout"></param>
-            <param name="_text"></param>
-            <param name="_toogleOnClick"></param>
-            <returns></returns>
-        </member>
-        <member name="M:EditoolsUnity.EditoolsLayout.Foldout(System.Boolean@,System.String,System.Boolean)">
-            <summary>
-            Create Foldout and return the boolean value by ref
-            </summary>
-            <param name="_value"></param>
-            <param name="_title"></param>
-            <param name="_isWide"></param>
-            <returns></returns>
         </member>
         <member name="T:EditoolsUnity.EditoolsHandle">
             <summary>
@@ -388,6 +337,47 @@
             <param name="_position"></param>
             <param name="_normal"></param>
             <param name="_radius"></param>
+        </member>
+        <member name="T:EditoolsUnity.EditoolsLayout">
+            <summary>
+            Class Layout of editools
+            </summary>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsLayout.Space(System.Int32)">
+            <summary>
+            Create Space with repeting parameters
+            </summary>
+            <param name="_i"></param>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsLayout.Horizontal(System.Boolean)">
+            <summary>
+            Create Start or End GUILayout Horizontal
+            </summary>
+            <param name="_begin"></param>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsLayout.Vertical(System.Boolean)">
+            <summary>
+            Create Start or End GUILayout Vertical
+            </summary>
+            <param name="_begin"></param>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsLayout.Foldout(System.Boolean,System.String,System.Boolean)">
+            <summary>
+            Create Foldout and return the boolean value
+            </summary>
+            <param name="_foldout"></param>
+            <param name="_text"></param>
+            <param name="_toogleOnClick"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EditoolsUnity.EditoolsLayout.Foldout(System.Boolean@,System.String,System.Boolean)">
+            <summary>
+            Create Foldout and return the boolean value by ref
+            </summary>
+            <param name="_value"></param>
+            <param name="_title"></param>
+            <param name="_isWide"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

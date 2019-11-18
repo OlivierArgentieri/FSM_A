@@ -30,6 +30,9 @@
                   <e p="FSMA_AgentMovement.cs" t="Include" />
                   <e p="FSMA_AgentSight.cs" t="Include" />
                 </e>
+                <e p="Behaviour" t="Include">
+                  <e p="FSMA_Detection.cs" t="Include" />
+                </e>
                 <e p="IAgent.cs" t="Include" />
               </e>
               <e p="Logic" t="Include">
@@ -38,7 +41,6 @@
               <e p="State" t="Include">
                 <e p="FSMA_State.cs" t="Include" />
                 <e p="States" t="Include">
-                  <e p="FSMA_Detection.cs" t="Include" />
                   <e p="FSMA_FindingPlayer.cs" t="Include" />
                   <e p="FSMA_MoveTo.cs" t="Include" />
                 </e>

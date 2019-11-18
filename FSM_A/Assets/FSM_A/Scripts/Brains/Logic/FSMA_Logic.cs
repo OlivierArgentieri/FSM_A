@@ -8,12 +8,15 @@ public sealed class FSMA_Logic : StateMachineBehaviour
 
     IAgent currentAgent = null;
 
-    [SerializeField, Header("Animator parameter")] string paramSight = "findPlayer";
-    [SerializeField, Header("Animator parameter")] string paramMovement = "isNotAtTarget";
+    [SerializeField, Header("Find Animator parameter")] string paramSight = "findPlayer";
+    [SerializeField, Header("Move to target Animator parameter")] string moveToTargetParam = "isNotAtTarget";
+    [SerializeField, Header("Move to find Animator parameter")] string movementFindParam = "isNotAtFind";
 
     public IAgent Agent => currentAgent;
     public FSMA_AgentSight Sight => currentAgent?.Sight;
     public FSMA_AgentMovement Movement => currentAgent?.Movement;
+
+    public FSMA_Detection Detection => currentAgent?.Detection;
 
     public bool IsValid => Sight && Movement;
 
@@ -61,9 +64,14 @@ public sealed class FSMA_Logic : StateMachineBehaviour
         if (Sight.TargetDetected)
         {
             Movement.SetTarget(Sight.Target);
-            _animator.SetBool(paramMovement, !Movement.IsAtPos);
+            _animator.SetBool(movementFindParam, false);
+            _animator.SetBool(moveToTargetParam, Movement.IsAtPos);
         }
         else
-            _animator.SetBool(paramMovement, true);
+        {
+            _animator.SetBool(moveToTargetParam, false);
+            _animator.SetBool(movementFindParam, true);
+            //Movement.SetTarget();
+        }
     }
 }
