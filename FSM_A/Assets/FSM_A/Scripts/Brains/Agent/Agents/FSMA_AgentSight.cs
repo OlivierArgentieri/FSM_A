@@ -21,7 +21,7 @@ public class FSMA_AgentSight : MonoBehaviour
         }
     
         float sightTickTimer = 0;
-        [SerializeField, Header("Sight tick time"), Range(0.1f, 10)] float tickMax = 1;
+        [SerializeField, Header("Sight tick time"), Range(0.1f, 10)] float tickMax = 0.2f;
         [SerializeField, Header("Sight Type")] AgentSightType sightType = AgentSightType.EcoPlus;
         [SerializeField, Header("Angle Sight"), Range(1f, 360)] int sightAngle = 45;
         [SerializeField, Header("Range Sight"), Range(1, 100)] float sightRange = 5;

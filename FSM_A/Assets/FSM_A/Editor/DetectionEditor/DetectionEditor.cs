@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
-
+using EditoolsUnity;
+#endif
 [CustomEditor(typeof(FSMA_Detection))]
-public class DetectionEditor : EditoolsUnity.EditorCustom<FSMA_Detection>
+public class DetectionEditor : EditorCustom<FSMA_Detection>
 {
     #region f/p
-
+    private bool setFocus = false;
     #endregion
 
 
@@ -19,6 +21,13 @@ public class DetectionEditor : EditoolsUnity.EditorCustom<FSMA_Detection>
         DrawDetectionInfo();
         DrawDetectionScene();
         DrawHotMap();
+        UseFocus(setFocus);
+    }
+
+    
+    private void OnDisable()
+    {
+        setFocus = false;
     }
 
     #endregion
@@ -26,45 +35,55 @@ public class DetectionEditor : EditoolsUnity.EditorCustom<FSMA_Detection>
 
     #region custom methods
 
+    void UseFocus(bool _status)
+    {
+        if (!_status) return;
+        SceneView.lastActiveSceneView.pivot = eTarget.transform.position;
+    }
     void DrawDetectionInfo()
     {
         Handles.BeginGUI();
         GUILayout.BeginArea(new Rect(0, 0, Screen.width * .5f, Screen.height));
         GUILayout.Box($"Detection Agent Track {eTarget.name}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
+        GUILayout.Box($"Detection Agent Cycle {eTarget.CycleNumber}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         GUILayout.Box($"Detection Agent Attempt {eTarget.Attempt}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         GUILayout.Box($"Detection Agent Reward {eTarget.Reward}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         GUILayout.Box($"Detection Agent Success Percent {eTarget.SuccessPercent}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         GUILayout.Box($"Detection Agent Panic {eTarget.Panic}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         GUILayout.Box($"Detection Agent Speed {eTarget.Speed}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
+        GUILayout.Box($"Detection Agent Skip {eTarget.Skip}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         GUILayout.Box($"Detection Agent Radius {eTarget.Radius}", SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Box, FontStyle.Bold));
         eTarget.Radius = GUILayout.HorizontalSlider(eTarget.Radius, 0, 20);
         
         EditorGUILayout.Space();
         if (GUILayout.Button("Test Detection", SetStyle(Color.yellow, 12, TextAnchor.MiddleCenter, StyleMode.Button, FontStyle.Bold))) eTarget.Search();
+        if (GUILayout.Button("Focus Agent",SetStyle(Color.white, 12, TextAnchor.MiddleCenter, StyleMode.Button, FontStyle.Bold)))
+            setFocus = !setFocus;
+        
+
         GUILayout.EndArea();
         Handles.EndGUI();
     }
 
     void DrawDetectionScene()
     {
-        EditoolsUnity.EditoolsHandle.SetColor(Color.magenta);
-        EditoolsUnity.EditoolsHandle.DrawWireDisc(eTarget.LastPos, Vector3.up, eTarget.Radius);
-        EditoolsUnity.EditoolsHandle.SetColor(Color.green);
-        EditoolsUnity.EditoolsHandle.DrawWireCube(eTarget.TargetPos + Vector3.up, Vector3.one * 0.5f);
-        EditoolsUnity.EditoolsHandle.DrawDottedLine(eTarget.TargetPos, eTarget.TargetPos + Vector3.up * 2, 1);
-        EditoolsUnity.EditoolsHandle.DrawDottedLine(eTarget.TargetPos, eTarget.transform.position, 1);
-        EditoolsUnity.EditoolsHandle.SetColor(Color.yellow);
-
-        EditoolsUnity.EditoolsHandle.DrawWireCube(eTarget.SearchPos + Vector3.up * 2, Vector3.one * 0.5f);
-        EditoolsUnity.EditoolsHandle.DrawDottedLine(eTarget.SearchPos, eTarget.SearchPos + Vector3.up * 2, 1);
-        EditoolsUnity.EditoolsHandle.DrawDottedLine(eTarget.SearchPos, eTarget.transform.position, 1);
+        EditoolsHandle.SetColor(Color.magenta);
+        EditoolsHandle.DrawWireDisc(eTarget.LastPos, Vector3.up, eTarget.Radius);
+        EditoolsHandle.SetColor(Color.green);
+        EditoolsHandle.DrawWireCube(eTarget.TargetPos + Vector3.up, Vector3.one * 0.5f);
+        EditoolsHandle.DrawDottedLine(eTarget.TargetPos, eTarget.TargetPos + Vector3.up * 2, 1);
+        EditoolsHandle.DrawDottedLine(eTarget.TargetPos, eTarget.transform.position, 1);
+        EditoolsHandle.SetColor(Color.yellow);
+        EditoolsHandle.DrawWireCube(eTarget.SearchPos + Vector3.up * 2, Vector3.one * 0.5f);
+        EditoolsHandle.DrawDottedLine(eTarget.SearchPos, eTarget.SearchPos + Vector3.up * 2, 1);
+        EditoolsHandle.DrawDottedLine(eTarget.SearchPos, eTarget.transform.position, 1);
     }
 
     void DrawHotMap()
     {
-        Handles.color = Color.yellow;
         for (int i = 0; i < eTarget.SearchZones.Count; i++)
         {
+            Handles.color = Color.Lerp(Color.red, Color.green, (float) i / eTarget.SearchZones.Count);
             Handles.DrawWireDisc(eTarget.SearchZones[i], Vector3.up, 3);
             Handles.DrawSolidDisc(eTarget.SearchZones[i], Vector3.up , 1.5f);
             if(i < eTarget.SearchZones.Count -1)

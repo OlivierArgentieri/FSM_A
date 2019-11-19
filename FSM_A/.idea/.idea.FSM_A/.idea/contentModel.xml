@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\User\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_FSM_A.294578665.00" t="ExcludeRecursive" />
-    <e p="D:\Projets\PullGithub\FSM_A\FSM_A" t="IncludeRecursive">
+    <e p="C:\Users\ARGE1606\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ARGE1606\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_FSM_A.-721612340.00" t="ExcludeRecursive" />
+    <e p="D:\ArgentieriOlivier\PullGithub\FSM_A\FSM_A" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -63,6 +63,27 @@
             </e>
             <e p="Util" t="Include">
               <e p="Util.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SpawnerManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="SM_SpawnerManagerEditor.cs" t="Include" />
+          </e>
+          <e p="Mode" t="Include">
+            <e p="Modes" t="Include">
+              <e p="SM_CircleMode.cs" t="Include" />
+              <e p="SM_LineMode.cs" t="Include" />
+              <e p="SM_PointMode.cs" t="Include" />
+            </e>
+            <e p="SM_Mode.cs" t="Include" />
+          </e>
+          <e p="SM_SpawnerManager.cs" t="Include" />
+          <e p="Spawn" t="Include">
+            <e p="SM_SpawnMode.cs" t="Include" />
+            <e p="SM_SpawnTrigger.cs" t="Include" />
+            <e p="SpawnPoint" t="Include">
+              <e p="SM_SpawnPoint.cs" t="Include" />
             </e>
           </e>
         </e>

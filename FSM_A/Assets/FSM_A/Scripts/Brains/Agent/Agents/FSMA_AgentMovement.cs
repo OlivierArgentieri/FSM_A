@@ -18,6 +18,7 @@ public class FSMA_AgentMovement : MonoBehaviour
 
     void InitMovement()
     {
+        
         OnUpdateMovement += Move;
         OnUpdateMovement += RotateTo;
     }

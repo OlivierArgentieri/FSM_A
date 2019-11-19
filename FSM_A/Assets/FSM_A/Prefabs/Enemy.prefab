@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 197230978556794275}
   - component: {fileID: 197230978556794272}
   - component: {fileID: 5149217359627492632}
+  - component: {fileID: 1596997611736098130}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -109,7 +110,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  range: 10
+  tickMax: 1
+  sightType: 2
+  sightAngle: 45
+  sightRange: 5
+  sightHeight: 1
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!114 &197230978556794275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +137,7 @@ MonoBehaviour:
   atPosDistance: 1
   speed: 2
   rotateSpeed: 200
+  targetVector: {x: 0, y: 0, z: 0}
 --- !u!114 &197230978556794272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sight: {fileID: 0}
+  detection: {fileID: 0}
   movement: {fileID: 0}
 --- !u!95 &5149217359627492632
 Animator:
@@ -159,3 +172,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1596997611736098130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197230978556794273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f145fe9874f1d940ad06f0fd9d4367a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 10
+  target: {fileID: 0}
+  isReduce: 1
+  resetCount: 50
+  layerObstacle:
+    serializedVersion: 2
+    m_Bits: 512

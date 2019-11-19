@@ -11,6 +11,7 @@ public sealed class FSMA_Logic : StateMachineBehaviour
     [SerializeField, Header("Find Animator parameter")] string paramSight = "findPlayer";
     [SerializeField, Header("Move to target Animator parameter")] string moveToTargetParam = "isAtTarget";
     [SerializeField, Header("Move to find Animator parameter")] string movementFindParam = "isNotAtFind";
+    [SerializeField, Header("Skip param")] string skipParam = "Skip";
 
     public IAgent Agent => currentAgent;
     public FSMA_AgentSight Sight => currentAgent?.Sight;
@@ -61,20 +62,32 @@ public sealed class FSMA_Logic : StateMachineBehaviour
     void GetMovementData(Animator _animator)
     {
         if (!IsValid) return;
-        if (Sight.TargetDetected)
+      
+        if (!Sight.TargetDetected)
         {
-            Movement.SetTarget(Sight.Target);
-            Detection.GiveReward();
-            _animator.SetBool(movementFindParam, false);
-            _animator.SetBool(moveToTargetParam, Movement.IsAtPos);
+            _animator.SetBool(moveToTargetParam, false);
+            _animator.SetBool(movementFindParam, !Movement.IsAtPos);
+            Movement.SetTarget(Detection.SearchPos);
+           // Movement.SetSpeed(Detection.Speed);
+            if (Detection.IsObstacle)
+            {
+                _animator.SetBool(movementFindParam, false);
+                Detection.UpRadius();
+            }
+            else
+            {
+                _animator.SetBool(moveToTargetParam, Movement.IsAtPos);
+            }
+            // if(Detection.SkipFind)
+            //  _animator.SetTrigger(skipParam);
         }
         else
         {
             
-            _animator.SetBool(moveToTargetParam, false);
-            _animator.SetBool(movementFindParam, !Movement.IsAtPos);
-            Movement.SetTarget(Detection.SearchPos);
-            Movement.SetSpeed(Detection.Speed);
+            Movement.SetTarget(Sight.Target);
+            Detection.GiveReward();
+            _animator.SetBool(movementFindParam, false);
+            _animator.SetBool(moveToTargetParam, Movement.IsAtPos);
         }
     }
 }

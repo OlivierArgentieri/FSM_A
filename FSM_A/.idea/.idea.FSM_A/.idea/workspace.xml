@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/FSMA_State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/FSMA_State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,216 +29,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-              <folding>
-                <marker date="1574125482794" expanded="false" signature="6:127" ph="..." />
-                <marker date="1574125482794" expanded="true" signature="172:2711" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="179:1316" ph="f/p" />
-                <marker date="1574125482794" expanded="true" signature="1225:1300" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="1323:1466" ph="unity methods" />
-                <marker date="1574125482794" expanded="true" signature="1372:1450" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="1472:2709" ph="custom methods" />
-                <marker date="1574125482794" expanded="true" signature="1524:1617" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="1645:1799" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="1829:2118" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="2145:2294" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="2186:2288" ph="{...}" />
-                <marker date="1574125482794" expanded="true" signature="2373:2574" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeOverlap.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <marker date="1573203041495" expanded="true" signature="60:1510" ph="{...}" />
-                <marker date="1573203041495" expanded="true" signature="218:1138" ph="{...}" />
-                <marker date="1573203041495" expanded="true" signature="410:1110" ph="{...}" />
-                <marker date="1573203041495" expanded="true" signature="720:1074" ph="{...}" />
-                <marker date="1573203041495" expanded="true" signature="1228:1508" ph="{...}" />
-                <marker date="1573203041495" expanded="true" signature="1326:1502" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding>
-                <marker date="1573203041492" expanded="false" signature="7:73" ph="..." />
-                <marker date="1573203041492" expanded="true" signature="116:1500" ph="{...}" />
-                <marker date="1573203041492" expanded="true" signature="290:1168" ph="{...}" />
-                <marker date="1573203041492" expanded="true" signature="541:970" ph="{...}" />
-                <marker date="1573203041492" expanded="true" signature="860:959" ph="{...}" />
-                <marker date="1573203041492" expanded="true" signature="1245:1497" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <marker date="1574097281263" expanded="true" signature="61:2017" ph="{...}" />
-                <marker date="1574097281263" expanded="true" signature="249:1205" ph="{...}" />
-                <marker date="1574097281263" expanded="true" signature="315:1149" ph="{...}" />
-                <marker date="1574097281263" expanded="true" signature="1038:1139" ph="{...}" />
-                <marker date="1574097281263" expanded="true" signature="1345:2015" ph="{...}" />
-                <marker date="1574097281263" expanded="true" signature="1406:2009" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-              <folding>
-                <marker date="1574125541238" expanded="false" signature="6:92" ph="..." />
-                <marker date="1574125541238" expanded="true" signature="141:1816" ph="{...}" />
-                <marker date="1574125541238" expanded="true" signature="743:827" ph="{...}" />
-                <marker date="1574125541238" expanded="true" signature="1079:1268" ph="{...}" />
-                <marker date="1574125541238" expanded="true" signature="1296:1586" ph="{...}" />
-                <marker date="1574125541238" expanded="true" signature="1687:1755" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding>
-                <marker date="1574097287634" expanded="false" signature="6:78" ph="..." />
-                <marker date="1574097287634" expanded="true" signature="134:2599" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="878:1099" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="1203:1282" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="1384:1550" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="1452:1544" ph="/* for (int i = 0; i &lt; _allStates.Length; i++) ... */" />
-                <marker date="1574097287634" expanded="true" signature="1598:1790" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="1833:1975" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="2021:2597" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="2091:2318" ph="{...}" />
-                <marker date="1574097287634" expanded="true" signature="2331:2591" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/FSM_A_PlayerManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <marker date="1573203041512" expanded="false" signature="6:71" ph="..." />
-                <marker date="1573203041512" expanded="true" signature="144:1249" ph="{...}" />
-                <marker date="1573203041512" expanded="true" signature="160:345" ph="f/p" />
-                <marker date="1573203041512" expanded="true" signature="365:401" ph="unity methods" />
-                <marker date="1573203041512" expanded="true" signature="431:1247" ph="custom methods" />
-                <marker date="1573203041512" expanded="true" signature="530:894" ph="{...}" />
-                <marker date="1573203041512" expanded="true" signature="952:1004" ph="{...}" />
-                <marker date="1573203041512" expanded="true" signature="1077:1130" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_MoveTo.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <marker date="1573203041504" expanded="false" signature="6:92" ph="..." />
-                <marker date="1573203041504" expanded="true" signature="131:296" ph="{...}" />
-                <marker date="1573203041504" expanded="true" signature="187:294" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/FSMA_State.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <marker date="1574125340427" expanded="false" signature="6:92" ph="..." />
-                <marker date="1574125340427" expanded="true" signature="141:1057" ph="{...}" />
-                <marker date="1574125340427" expanded="true" signature="560:609" ph="{...}" />
-                <marker date="1574125340427" expanded="true" signature="713:763" ph="{...}" />
-                <marker date="1574125340427" expanded="true" signature="865:912" ph="{...}" />
-                <marker date="1574125340427" expanded="true" signature="942:1055" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-              <folding>
-                <marker date="1574125001739" expanded="false" signature="6:92" ph="..." />
-                <marker date="1574125001739" expanded="true" signature="138:359" ph="{...}" />
-                <marker date="1574125001739" expanded="true" signature="194:357" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/0c/9750c284/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47EBF6EB-E9B3-4943-B14A-F8769A0E6CAB/4a/ad401134/GUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D971063-3068-4ADD-86D0-80ECF65BFE69/5b/3e0f5e91/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47EBF6EB-E9B3-4943-B14A-F8769A0E6CAB/dc/aea929fe/Event.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/FSMA_State.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/PlayerComponent/FSM_A_PlayerComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/IAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeOverlap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0F5F0233-6DAE-4577-A12D-15E7853AB583/ad/1355cf0a/EditoolsButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/342DC757-417D-4102-86BF-B252AD7ACA30/92/b563547b/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23928BE2-FE24-4635-966E-B651D9AFA0AE/32/a6e295e6/EditorCompilationInterface.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47EBF6EB-E9B3-4943-B14A-F8769A0E6CAB/dc/aea929fe/Event.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/FSM_A_PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Editor/FSMA_SightEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/b6/1b57f6f1/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0F5F0233-6DAE-4577-A12D-15E7853AB583/1b/6326fffd/EditorCustom`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_MoveTo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/342DC757-417D-4102-86BF-B252AD7ACA30/92/b563547b/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23928BE2-FE24-4635-966E-B651D9AFA0AE/32/a6e295e6/EditorCompilationInterface.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_MoveTo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0F5F0233-6DAE-4577-A12D-15E7853AB583/d2/1719b463/EditoolsHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpawnerManager/SM_SpawnerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/0c/9750c284/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/PlayerComponent/FSM_A_PlayerComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/b6/1b57f6f1/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47EBF6EB-E9B3-4943-B14A-F8769A0E6CAB/4a/ad401134/GUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/FSMA_State.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/IAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpawnerManager/Mode/Modes/SM_CircleMode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/FSM_A_PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Editor/FSMA_SightEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpawnerManager/Editor/SM_SpawnerManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/48/eed2eecb/RenderPipelineManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7D971063-3068-4ADD-86D0-80ECF65BFE69/5b/3e0f5e91/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47EBF6EB-E9B3-4943-B14A-F8769A0E6CAB/a6/aec911f1/GUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/d8/1e769aff/ScriptableRuntimeReflectionSystemWrapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23928BE2-FE24-4635-966E-B651D9AFA0AE/fe/50fa0045/RetainedMode.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -251,13 +96,14 @@
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/IAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/PlayerComponent/FSM_A_PlayerComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/FSMA_State.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpawnerManager/Editor/SM_SpawnerManagerEditor.cs" />
       </list>
     </option>
   </component>
@@ -269,154 +115,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-130" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
   <component name="ProjectId" id="1Sum2Wsz3ImbZODSfgGakx0Aywk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-              <item name="Agent" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-              <item name="Agent" type="1045f7f1:UnityExplorerNode" />
-              <item name="Agents" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-              <item name="Agent" type="1045f7f1:UnityExplorerNode" />
-              <item name="Agents" type="1045f7f1:UnityExplorerNode" />
-              <item name="FSM_A_AgentSightType" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-              <item name="Agent" type="1045f7f1:UnityExplorerNode" />
-              <item name="Behaviour" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-              <item name="Logic" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-              <item name="State" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Brains" type="1045f7f1:UnityExplorerNode" />
-              <item name="State" type="1045f7f1:UnityExplorerNode" />
-              <item name="States" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Enemy" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Player" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Player" type="1045f7f1:UnityExplorerNode" />
-              <item name="PlayerComponent" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="FSM_A" type="1045f7f1:UnityExplorerNode" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="TemplateManager" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -452,10 +152,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="252404">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="96540">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="252404" />
+      <option name="pid" value="96540" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -482,49 +182,6 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6087000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40341514" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -536,12 +193,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -575,217 +226,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
-          <folding>
-            <marker date="1574097287521" expanded="true" signature="6:111" ph="..." />
-            <marker date="1574097287521" expanded="true" signature="225:4358" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="232:259" ph="f/p" />
-            <marker date="1574097287521" expanded="true" signature="266:428" ph="unity methods" />
-            <marker date="1574097287521" expanded="true" signature="319:412" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="435:4356" ph="custom methods" />
-            <marker date="1574097287521" expanded="true" signature="487:1995" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="2026:2956" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="2979:3442" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="3083:3398" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="3570:4335" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="3665:4161" ph="{...}" />
-            <marker date="1574097287521" expanded="true" signature="4381:4416" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <marker date="1574097287862" expanded="false" signature="6:78" ph="..." />
-            <marker date="1574097287862" expanded="true" signature="201:905" ph="{...}" />
-            <marker date="1574097287862" expanded="true" signature="673:706" ph="{...}" />
-            <marker date="1574097287862" expanded="true" signature="735:903" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Editor/FSMA_SightEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1573203041507" expanded="false" signature="6:111" ph="..." />
-            <marker date="1573203041507" expanded="true" signature="191:1124" ph="{...}" />
-            <marker date="1573203041507" expanded="false" signature="198:269" ph="f/p" />
-            <marker date="1573203041507" expanded="false" signature="275:1077" ph="unity methods" />
-            <marker date="1573203041507" expanded="true" signature="325:428" ph="{...}" />
-            <marker date="1573203041507" expanded="true" signature="471:514" ph="{...}" />
-            <marker date="1573203041507" expanded="true" signature="545:1061" ph="{...}" />
-            <marker date="1573203041507" expanded="false" signature="1083:1121" ph="custom methods" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/FSM_A_PlayerManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1573203041512" expanded="false" signature="6:71" ph="..." />
-            <marker date="1573203041512" expanded="true" signature="144:1249" ph="{...}" />
-            <marker date="1573203041512" expanded="true" signature="160:345" ph="f/p" />
-            <marker date="1573203041512" expanded="true" signature="365:401" ph="unity methods" />
-            <marker date="1573203041512" expanded="true" signature="431:1247" ph="custom methods" />
-            <marker date="1573203041512" expanded="true" signature="530:894" ph="{...}" />
-            <marker date="1573203041512" expanded="true" signature="952:1004" ph="{...}" />
-            <marker date="1573203041512" expanded="true" signature="1077:1130" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <marker date="1574097287634" expanded="false" signature="6:78" ph="..." />
-            <marker date="1574097287634" expanded="true" signature="134:2599" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="878:1099" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="1203:1282" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="1384:1550" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="1452:1544" ph="/* for (int i = 0; i &lt; _allStates.Length; i++) ... */" />
-            <marker date="1574097287634" expanded="true" signature="1598:1790" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="1833:1975" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="2021:2597" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="2091:2318" ph="{...}" />
-            <marker date="1574097287634" expanded="true" signature="2331:2591" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/FSMA_State.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1574125340427" expanded="false" signature="6:92" ph="..." />
-            <marker date="1574125340427" expanded="true" signature="141:1057" ph="{...}" />
-            <marker date="1574125340427" expanded="true" signature="560:609" ph="{...}" />
-            <marker date="1574125340427" expanded="true" signature="713:763" ph="{...}" />
-            <marker date="1574125340427" expanded="true" signature="865:912" ph="{...}" />
-            <marker date="1574125340427" expanded="true" signature="942:1055" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <marker date="1574125001739" expanded="false" signature="6:92" ph="..." />
-            <marker date="1574125001739" expanded="true" signature="138:359" ph="{...}" />
-            <marker date="1574125001739" expanded="true" signature="194:357" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_MoveTo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1573203041504" expanded="false" signature="6:92" ph="..." />
-            <marker date="1573203041504" expanded="true" signature="131:296" ph="{...}" />
-            <marker date="1573203041504" expanded="true" signature="187:294" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-          <folding>
-            <marker date="1574125482794" expanded="false" signature="6:127" ph="..." />
-            <marker date="1574125482794" expanded="true" signature="172:2711" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="179:1316" ph="f/p" />
-            <marker date="1574125482794" expanded="true" signature="1225:1300" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="1323:1466" ph="unity methods" />
-            <marker date="1574125482794" expanded="true" signature="1372:1450" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="1472:2709" ph="custom methods" />
-            <marker date="1574125482794" expanded="true" signature="1524:1617" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="1645:1799" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="1829:2118" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="2145:2294" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="2186:2288" ph="{...}" />
-            <marker date="1574125482794" expanded="true" signature="2373:2574" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeEcoPlus.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <marker date="1573203041492" expanded="false" signature="7:73" ph="..." />
-            <marker date="1573203041492" expanded="true" signature="116:1500" ph="{...}" />
-            <marker date="1573203041492" expanded="true" signature="290:1168" ph="{...}" />
-            <marker date="1573203041492" expanded="true" signature="541:970" ph="{...}" />
-            <marker date="1573203041492" expanded="true" signature="860:959" ph="{...}" />
-            <marker date="1573203041492" expanded="true" signature="1245:1497" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeMultiRay.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <marker date="1574097281263" expanded="true" signature="61:2017" ph="{...}" />
-            <marker date="1574097281263" expanded="true" signature="249:1205" ph="{...}" />
-            <marker date="1574097281263" expanded="true" signature="315:1149" ph="{...}" />
-            <marker date="1574097281263" expanded="true" signature="1038:1139" ph="{...}" />
-            <marker date="1574097281263" expanded="true" signature="1345:2015" ph="{...}" />
-            <marker date="1574097281263" expanded="true" signature="1406:2009" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSM_A_AgentSightType/FSM_A_AgentSightTypeOverlap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <marker date="1573203041495" expanded="true" signature="60:1510" ph="{...}" />
-            <marker date="1573203041495" expanded="true" signature="218:1138" ph="{...}" />
-            <marker date="1573203041495" expanded="true" signature="410:1110" ph="{...}" />
-            <marker date="1573203041495" expanded="true" signature="720:1074" ph="{...}" />
-            <marker date="1573203041495" expanded="true" signature="1228:1508" ph="{...}" />
-            <marker date="1573203041495" expanded="true" signature="1326:1502" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding>
-            <marker date="1574125541238" expanded="false" signature="6:92" ph="..." />
-            <marker date="1574125541238" expanded="true" signature="141:1816" ph="{...}" />
-            <marker date="1574125541238" expanded="true" signature="743:827" ph="{...}" />
-            <marker date="1574125541238" expanded="true" signature="1079:1268" ph="{...}" />
-            <marker date="1574125541238" expanded="true" signature="1296:1586" ph="{...}" />
-            <marker date="1574125541238" expanded="true" signature="1687:1755" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
