@@ -66,3 +66,4 @@ FSM_A/Temp/*
 FSM_A/Library/metadata/**
 FSM_A/Library/ShaderCache/**
 FSM_A/.idea/.idea.FSM_A/*
+FSM_A/.idea/**

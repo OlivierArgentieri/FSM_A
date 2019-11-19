@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Plugins/Editools/EditoolsUnity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
