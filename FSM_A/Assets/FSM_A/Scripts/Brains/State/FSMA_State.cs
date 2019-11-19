@@ -27,7 +27,6 @@ public class FSMA_State : StateMachineBehaviour
 
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //OnFSMA_StateEnd += ResetState;
         OnFSMA_StateEnd?.Invoke();
     }
 

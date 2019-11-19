@@ -29,12 +29,11 @@ public class FSMA_AgentMovement : MonoBehaviour
     public bool IsValid => target;
 
     public void Move()
-    {
-       // if (!IsValid) return;
+    { 
+        // if (!IsValid) return;
    
         if (IsAtPos) return;
         transform.position = Vector3.MoveTowards(transform.position, TargetPosition, Time.deltaTime * speed);
-        
     }
 
     public void RotateTo()

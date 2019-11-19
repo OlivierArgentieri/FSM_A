@@ -81,7 +81,6 @@ public class FSMA_Detection : MonoBehaviour
         Attempt++;
         targetDetected = false;
         ResetDetection();
-        AddPanic();
     }
 
     void ResetDetection()
@@ -90,6 +89,7 @@ public class FSMA_Detection : MonoBehaviour
         {
             searchZones.Clear();
             Attempt = 0;
+            Reward = 0;
         }
     }
 
@@ -101,9 +101,8 @@ public class FSMA_Detection : MonoBehaviour
 
         return new Vector3(_x, _y, _z);
     }
-
+    
     float GetRandomAngle(float _angleMin, float _angleMax) => UnityEngine.Random.Range(_angleMin, _angleMax);
-
-
+    
     #endregion
 }
