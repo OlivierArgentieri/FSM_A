@@ -19,6 +19,7 @@ public class FSMA_Detection : MonoBehaviour
     [SerializeField, Header("Panic Mode")] private bool isReduce = false;
     [SerializeField, Header("Reset limit"), Range(1,100)] private int resetCount = 50;
     [SerializeField, Header("Layer Obstacle")] private LayerMask layerObstacle = 0;
+    [SerializeField, Header("Speed Max")] private float speedMax = 10;
     // List<ITarget> targets = new List<ITarget>(); todo
 
     public Vector3 TargetPos => target ? target.position : Vector3.zero;
@@ -34,11 +35,11 @@ public class FSMA_Detection : MonoBehaviour
     public int Attempt { get; private set; } = 0;
     public int CycleNumber { get; private set; } = 1;
     
-    public int Panic { get; private set; } = 0;
+    public int Panic { get; private set; } = 1;
     public int Skip { get; private set; } = 0;
    // public bool SkipFind { get; private set; } = false;
     public int Reward { get; private set; } = 0;
-    public float Speed => Panic * 2f;
+    public float Speed => Panic * 1.5f >= speedMax? speedMax : Panic * 1.5f;
     public int ResetCount => resetCount;
     
     public float SuccessPercent => Attempt > 0 ? (((float) Reward / Attempt ) * 100) : 0;

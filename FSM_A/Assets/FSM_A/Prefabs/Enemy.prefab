@@ -191,3 +191,4 @@ MonoBehaviour:
   layerObstacle:
     serializedVersion: 2
     m_Bits: 512
+  speedMax: 20

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="" />
+    <list default="true" id="a2a081aa-f197-45f4-aaf0-b9d70f497a36" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSM_A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/IABrain.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +49,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/SpawnerManager/Mode/Modes/SM_CircleMode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Player/FSM_A_PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Editor/FSMA_SightEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Enemy/FSMA_Ennemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpawnerManager/Editor/SM_SpawnerManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2094A731-351D-475D-BA68-F5920DE30ED8/48/eed2eecb/RenderPipelineManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,10 +88,10 @@
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/State/States/FSMA_FindingPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" />
-        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" />
         <option value="$PROJECT_DIR$/Assets/FSM_A/Editor/DetectionEditor/DetectionEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/SpawnerManager/Editor/SM_SpawnerManagerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Logic/FSMA_Logic.cs" />
+        <option value="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Behaviour/FSMA_Detection.cs" />
       </list>
     </option>
   </component>
@@ -158,6 +167,8 @@
       <workItem from="1573640038946" duration="4738000" />
       <workItem from="1574064882326" duration="25896000" />
       <workItem from="1574100953365" duration="6087000" />
+      <workItem from="1574237317504" duration="1308000" />
+      <workItem from="1574773133302" duration="5173000" />
     </task>
     <servers />
   </component>
@@ -203,6 +214,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs</url>
+          <line>91</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FSM_A/Scripts/Brains/Agent/Agents/FSMA_AgentSight.cs" initialLine="91">
+            <startOffsets>
+              <option value="3297" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3298" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
